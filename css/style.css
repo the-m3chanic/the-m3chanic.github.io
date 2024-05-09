@@ -339,7 +339,7 @@ body .h2 {
   text-transform: none;
   letter-spacing: normal;
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 2rem;
 }
 body h3 {
   color: #eee;
@@ -481,7 +481,7 @@ body {
   background-color: #1d1f21;
   color: #c9cacc;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 20px;
   font-family: "Menlo", "Meslo LG", monospace;
   line-height: 1.725;
   text-rendering: geometricPrecision;
@@ -1075,7 +1075,7 @@ body {
   margin-right: 16px;
   min-width: 100px;
   color: #908d8d;
-  font-size: 14px;
+  font-size: 20px;
 }
 @media (min-width: 480px) {
   .post-list .post-item {
@@ -1122,11 +1122,11 @@ article header .postdate {
 article .content h2:before {
   position: absolute;
   top: -4px;
-  left: -1rem;
+  left: -2rem;
   color: #2bbc8a;
   content: "#";
   font-weight: bold;
-  font-size: 1.2rem;
+  font-size: 2rem;
 }
 article .content img,
 article .content video {
@@ -1243,6 +1243,7 @@ article .content .caption {
 }
 #archive .post-list {
   padding: 0;
+  font-size: 20px;
 }
 #archive .post-list .post-item {
   margin-bottom: 1rem;
@@ -1254,7 +1255,7 @@ article .content .caption {
   margin-right: 16px;
   min-width: 100px;
   color: #908d8d;
-  font-size: 14px;
+  font-size: 20px;
 }
 @media (min-width: 480px) {
   #archive .post-list .post-item {

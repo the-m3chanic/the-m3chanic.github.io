@@ -54,6 +54,7 @@
 .rtl .post-list .post-item .meta {
   margin-left: 16px;
   margin-right: inherit;
+  font-size: 20px;
 }
 @media screen and (min-width: 480px) {
   .rtl .post-list .post-item .meta {
