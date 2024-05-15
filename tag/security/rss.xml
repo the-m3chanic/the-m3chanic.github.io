@@ -22,7 +22,7 @@
             <category term="C#" scheme="https://the-m3chanic.github.io/tags/C/" />
             <category term=".NET" scheme="https://the-m3chanic.github.io/tags/NET/" />
             <pubDate>Wed, 08 May 2024 08:09:58 +0530</pubDate>
-            <description><![CDATA[ &lt;p&gt;When the topic of executing &amp;quot;hidden&amp;quot; code comes up, one&#39;s mind often goes into techniques like process injection, C2 server shenanigans, polymorphic code, etc. But what if I tell you there is a method that can execute code that lies plain and simple in the binary, but you&#39;ll never see it?&lt;/p&gt;
+            <description><![CDATA[ &lt;p&gt;When the topic of executing &lt;em&gt;hidden&lt;/em&gt; code comes up, one&#39;s mind often goes into techniques like process injection, C2 server shenanigans, polymorphic code, etc. But what if I tell you there is a method that can execute code that lies plain and simple in the binary, but you&#39;ll never see it?&lt;/p&gt;
 &lt;p&gt;Before we get started on the juicy stuff, I&#39;m afraid we&#39;ll need to learn some prerequisites first. If you happen to be an expert in the .NET compilation and runtime process, and also know how to read assembly, then I have some great news for you: you can skip past a bunch of stuff I&#39;m about to talk about and jump right into Reversing it (although I&#39;d appreciate you giving it a read for the 3 cans of chocolate milk that went into making this post).&lt;/p&gt;
 &lt;p&gt;Okay, so let&#39;s jump right into it.&lt;/p&gt;
 &lt;h2 id=&#34;what-is-net&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#what-is-net&#34;&gt;#&lt;/a&gt; What is .NET?&lt;/h2&gt;
