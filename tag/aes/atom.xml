@@ -51,10 +51,10 @@ Additionally, the array that is being set is of length 256, another AES hint.&lt
 &lt;p&gt;Overall, this was an easy to medium challenge, with just some obfuscation to hide some things being generated in the binary and a vulnerable implementation of AES being implemented. I hope you guys had fun solving the challenge and learnt something new from it as well! 😃&lt;/p&gt;
 </content>
         <category term="Writeup" scheme="https://the-m3chanic.github.io/categories/Writeup/" />
-        <category term="reversing" scheme="https://the-m3chanic.github.io/tags/reversing/" />
         <category term="bi0sCTF" scheme="https://the-m3chanic.github.io/tags/bi0sCTF/" />
         <category term="writeup" scheme="https://the-m3chanic.github.io/tags/writeup/" />
         <category term="crypto" scheme="https://the-m3chanic.github.io/tags/crypto/" />
+        <category term="reversing" scheme="https://the-m3chanic.github.io/tags/reversing/" />
         <category term="AES" scheme="https://the-m3chanic.github.io/tags/AES/" />
         <updated>2024-02-26T17:09:06.000Z</updated>
     </entry>

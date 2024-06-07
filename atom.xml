@@ -8,14 +8,15 @@
     <author>
       <name>Suraj Kumar</name>
     </author>
-    <updated>2024-05-16T22:00:07.000Z</updated>
+    <updated>2024-06-06T22:00:07.000Z</updated>
     <entry>
-        <id>https://the-m3chanic.github.io/2024/05/17/GSoC-with-RTEMS-Week-1/</id>
+        <id>https://the-m3chanic.github.io/2024/06/07/GSoC-with-RTEMS-Week-1/</id>
         <title>GSoC with RTEMS! - 1/n</title>
-        <link rel="alternate" href="https://the-m3chanic.github.io/2024/05/17/GSoC-with-RTEMS-Week-1/"/>
-        <content type="html">&lt;h1 id=&#34;week-1&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#week-1&#34;&gt;#&lt;/a&gt; Week 1&lt;/h1&gt;
-&lt;h3 id=&#34;8524-15424&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#8524-15424&#34;&gt;#&lt;/a&gt; 8/5/24 - 15/4/24&lt;/h3&gt;
-&lt;p&gt;Okay, just got accepted as a contributor for Google Summer of Code (given it was a few days back, but I instantly got sick after that and ended up on bedrest - quite a way to start off my journey! 😂 )&lt;/p&gt;
+        <link rel="alternate" href="https://the-m3chanic.github.io/2024/06/07/GSoC-with-RTEMS-Week-1/"/>
+        <content type="html">&lt;p&gt;Extending the features of a debugger, especially GDB, sounded like a fun and interesting project at first glance. I already have quite a bit of experience working with GDB, and use it almost daily while Reverse Engineering or during CTFs. GDB has an awesome Python API that it utilizes to do things it cannot do straight out the box, and one such thing is pretty-printing.&lt;/p&gt;
+&lt;p&gt;Imagine you have a weird class/structure in your program, and you want to view it in memory, so you pop it open in GDB. Then you print your variable in GDB and it spits out something so awful that you wish you never started debugging in the first place. This is because GDB obviously cannot know about any and every single structure out there, and sometime it needs a little help - this is where the awesome Python API I mentioned comes in.&lt;/p&gt;
+&lt;p&gt;Python essentially hooks onto GDB and interprets something GDB might be unable to, then do some Python magic and voila, you have the same structure neatly formatted! Some nice examples and a deeper explanation of what pretty-printing can be found in the &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9zb3VyY2V3YXJlLm9yZy9nZGIvY3VycmVudC9vbmxpbmVkb2NzL2dkYi5odG1sL1ByZXR0eS1QcmludGluZy5odG1sI1ByZXR0eS1QcmludGluZw==&#34;&gt;documentation&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;GCC ships pretty-printing scripts for  &lt;code&gt;libstdcxx&lt;/code&gt; , which is essentially all of the C++ STL Structures, and my job is to get the GDB installed on &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cucnRlbXMub3Jn&#34;&gt;RTEMS&lt;/span&gt; to automatically load these pretty-printing scripts at load-time, to enhance the debugging experience on RTEMS 😃. Next, add pretty-printing support for kernel structures present on RTEMS.&lt;/p&gt;
 &lt;p&gt;Starting off, I already had a couple of things to get ticked off my checklist. I wanted to mainly set up a proper debugging environment, and also study various commonly used kernel structures - before diving deeper into my project. Since my project itself was to extend the functionality of the debugger, what good is it if I don&#39;t have a debugging environment setup in place?&lt;/p&gt;
 &lt;p&gt;Let&#39;s jump right into my debugger setup then.&lt;/p&gt;
 &lt;p&gt;I am working on a Windows 11 (x64), WSL2 (Arch) system. On top of this, I have the RTEMS tooling installed from the instructions in their &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kb2NzLnJ0ZW1zLm9yZy9icmFuY2hlcy9tYXN0ZXIvdXNlci9zdGFydC9zb3VyY2VzLmh0bWw=&#34;&gt;documentation&lt;/span&gt;. On top of that, they provide a variety of options to build various BSPs (think of BSPs as housing for the OS to be embedded upon). I needed a build setup such that:&lt;/p&gt;
@@ -68,7 +69,7 @@ First, for emulation, I went with qemu. I already had a  &lt;code&gt;qemu-system
         <category term="GDB" scheme="https://the-m3chanic.github.io/tags/GDB/" />
         <category term="Debugging" scheme="https://the-m3chanic.github.io/tags/Debugging/" />
         <category term="Open source" scheme="https://the-m3chanic.github.io/tags/Open-source/" />
-        <updated>2024-05-16T22:00:07.000Z</updated>
+        <updated>2024-06-06T22:00:07.000Z</updated>
     </entry>
     <entry>
         <id>https://the-m3chanic.github.io/2024/05/08/R2R-Ready-to-Run-Stomping-WTF/</id>
@@ -242,10 +243,10 @@ Additionally, the array that is being set is of length 256, another AES hint.&lt
 &lt;p&gt;Overall, this was an easy to medium challenge, with just some obfuscation to hide some things being generated in the binary and a vulnerable implementation of AES being implemented. I hope you guys had fun solving the challenge and learnt something new from it as well! 😃&lt;/p&gt;
 </content>
         <category term="Writeup" scheme="https://the-m3chanic.github.io/categories/Writeup/" />
-        <category term="reversing" scheme="https://the-m3chanic.github.io/tags/reversing/" />
         <category term="bi0sCTF" scheme="https://the-m3chanic.github.io/tags/bi0sCTF/" />
         <category term="writeup" scheme="https://the-m3chanic.github.io/tags/writeup/" />
         <category term="crypto" scheme="https://the-m3chanic.github.io/tags/crypto/" />
+        <category term="reversing" scheme="https://the-m3chanic.github.io/tags/reversing/" />
         <category term="AES" scheme="https://the-m3chanic.github.io/tags/AES/" />
         <updated>2024-02-26T17:09:06.000Z</updated>
     </entry>
@@ -417,9 +418,9 @@ First thing that comes to mind is z3, so let&#39;s go for that.&lt;/p&gt;
 </content>
         <category term="Writeup" scheme="https://the-m3chanic.github.io/categories/Writeup/" />
         <category term="security" scheme="https://the-m3chanic.github.io/tags/security/" />
+        <category term="reversing" scheme="https://the-m3chanic.github.io/tags/reversing/" />
         <category term="ctf" scheme="https://the-m3chanic.github.io/tags/ctf/" />
         <category term="IrisCTF" scheme="https://the-m3chanic.github.io/tags/IrisCTF/" />
-        <category term="reversing" scheme="https://the-m3chanic.github.io/tags/reversing/" />
         <updated>2024-01-26T01:12:26.000Z</updated>
     </entry>
 </feed>
