@@ -42,9 +42,9 @@
             "tags": [
                 "Writeup",
                 "security",
-                "reversing",
                 "ctf",
-                "IrisCTF"
+                "IrisCTF",
+                "reversing"
             ]
         }
     ]

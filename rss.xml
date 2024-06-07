@@ -23,7 +23,7 @@
             <category term="Open source" scheme="https://the-m3chanic.github.io/tags/Open-source/" />
             <pubDate>Fri, 07 Jun 2024 03:30:07 +0530</pubDate>
             <description><![CDATA[ &lt;p&gt;Extending the features of a debugger, especially GDB, sounded like a fun and interesting project at first glance. I already have quite a bit of experience working with GDB, and use it almost daily while Reverse Engineering or during CTFs.&lt;br /&gt;
-For those of you that are not familiar, CTF stands for &amp;quot;Capture the Flag&amp;quot;. It is a competition wherein the hosting team creates and puts out challenges/services that are intentionally vulnerable - usually in a way that is specific to a single field of Cyber Security - and the point of the challenge is to figure out what the vulnerability is and use it to get a text string from it called a &amp;quot;flag&amp;quot;. Capture more flags, gain more points. I play CTFs with &lt;a href=&#34;bi0s.in&#34;&gt;team bi0s&lt;/a&gt;.&lt;/p&gt;
+For those of you that are not familiar, CTF stands for &amp;quot;Capture the Flag&amp;quot;. It is a competition wherein the hosting team creates and puts out challenges/services that are intentionally vulnerable - usually in a way that is specific to a single field of Cyber Security - and the point of the challenge is to figure out what the vulnerability is and use it to get a text string from it called a &amp;quot;flag&amp;quot;. Capture more flags, gain more points. I play CTFs with &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9iaTBzLmlu&#34;&gt;team bi0s&lt;/span&gt;.&lt;/p&gt;
 &lt;p&gt;GDB has an awesome Python API that it utilizes to do things it cannot do straight out the box, and one such thing is pretty-printing.&lt;/p&gt;
 &lt;p&gt;Imagine you have a weird class/structure in your program, and you want to view it in memory, so you pop it open in GDB. Then you print your variable in GDB and it spits out something so awful that you wish you never started debugging in the first place. This is because GDB obviously cannot know about any and every single structure out there, and sometimes it needs a little help - this is where the awesome Python API I mentioned comes in.&lt;/p&gt;
 &lt;p&gt;Python essentially hooks onto GDB and interprets something GDB might be unable to, then do some Python magic and voila, you have the same structure neatly formatted! Some nice examples and a deeper explanation of what pretty-printing can be found in the &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9zb3VyY2V3YXJlLm9yZy9nZGIvY3VycmVudC9vbmxpbmVkb2NzL2dkYi5odG1sL1ByZXR0eS1QcmludGluZy5odG1sI1ByZXR0eS1QcmludGluZw==&#34;&gt;documentation&lt;/span&gt;&lt;/p&gt;
@@ -211,10 +211,10 @@ Most likely, you&#39;ll have multiple results, but only one that corresponds to 
             <title>Writeup - t0y-b0x - bi0sCTF 2024</title>
             <link>https://the-m3chanic.github.io/2024/02/26/Writeup-t0y-b0x-bi0sCTF-2024/</link>
             <category term="Writeup" scheme="https://the-m3chanic.github.io/categories/Writeup/" />
+            <category term="reversing" scheme="https://the-m3chanic.github.io/tags/reversing/" />
             <category term="bi0sCTF" scheme="https://the-m3chanic.github.io/tags/bi0sCTF/" />
             <category term="writeup" scheme="https://the-m3chanic.github.io/tags/writeup/" />
             <category term="crypto" scheme="https://the-m3chanic.github.io/tags/crypto/" />
-            <category term="reversing" scheme="https://the-m3chanic.github.io/tags/reversing/" />
             <category term="AES" scheme="https://the-m3chanic.github.io/tags/AES/" />
             <pubDate>Mon, 26 Feb 2024 22:39:06 +0530</pubDate>
             <description><![CDATA[ &lt;p&gt;&lt;strong&gt;tl;dr&lt;/strong&gt;&lt;/p&gt;
@@ -342,9 +342,9 @@ Let&#39;s look at this logically - we know the binary has a print statement some
             <link>https://the-m3chanic.github.io/2024/01/26/Writeup-Secure-Computing-IRIS-CTF-2024/</link>
             <category term="Writeup" scheme="https://the-m3chanic.github.io/categories/Writeup/" />
             <category term="security" scheme="https://the-m3chanic.github.io/tags/security/" />
-            <category term="reversing" scheme="https://the-m3chanic.github.io/tags/reversing/" />
             <category term="ctf" scheme="https://the-m3chanic.github.io/tags/ctf/" />
             <category term="IrisCTF" scheme="https://the-m3chanic.github.io/tags/IrisCTF/" />
+            <category term="reversing" scheme="https://the-m3chanic.github.io/tags/reversing/" />
             <pubDate>Fri, 26 Jan 2024 06:42:26 +0530</pubDate>
             <description><![CDATA[ &lt;p&gt;Note: My team and I didn&#39;t end up solving this during the CTF, we got very close though. This writeup goes through the steps I took to finish solving the challenge after the CTF ended. Hopefully you learn a thing or two 😃&lt;/p&gt;
 &lt;p&gt;&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;Your own secure computer can check the flag! Might have forgotten to add the logic to the program, but I think if you guess enough, you can figure it out. Not sure&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
