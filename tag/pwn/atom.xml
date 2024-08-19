@@ -185,11 +185,11 @@ To do this, we would need to pass the canary as part of the input, and doing tha
 &lt;p&gt;If you guys have any questions about anything mentioned in the writeups, feel free to reach out to me on &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly94LmNvbS90aGVfbTNjaGFuaWNf&#34;&gt;X/Twitter&lt;/span&gt; or on Discord at  &lt;code&gt;the.m3chanic&lt;/code&gt; . Cheers.&lt;/p&gt;
 </content>
         <category term="Writeup" scheme="https://the-m3chanic.github.io/categories/Writeup/" />
-        <category term="Security" scheme="https://the-m3chanic.github.io/tags/Security/" />
         <category term="writeup" scheme="https://the-m3chanic.github.io/tags/writeup/" />
+        <category term="reversing" scheme="https://the-m3chanic.github.io/tags/reversing/" />
+        <category term="Security" scheme="https://the-m3chanic.github.io/tags/Security/" />
         <category term="CTF" scheme="https://the-m3chanic.github.io/tags/CTF/" />
         <category term="pwn" scheme="https://the-m3chanic.github.io/tags/pwn/" />
-        <category term="reversing" scheme="https://the-m3chanic.github.io/tags/reversing/" />
         <updated>2024-07-07T22:34:33.000Z</updated>
     </entry>
 </feed>

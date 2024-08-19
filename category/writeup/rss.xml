@@ -17,11 +17,11 @@
             <title>Writeup - lost canary - UIUCTF24</title>
             <link>https://the-m3chanic.github.io/2024/07/08/Writeup-lost-canary-UIUCTF24/</link>
             <category term="Writeup" scheme="https://the-m3chanic.github.io/categories/Writeup/" />
-            <category term="Security" scheme="https://the-m3chanic.github.io/tags/Security/" />
             <category term="writeup" scheme="https://the-m3chanic.github.io/tags/writeup/" />
+            <category term="reversing" scheme="https://the-m3chanic.github.io/tags/reversing/" />
+            <category term="Security" scheme="https://the-m3chanic.github.io/tags/Security/" />
             <category term="CTF" scheme="https://the-m3chanic.github.io/tags/CTF/" />
             <category term="pwn" scheme="https://the-m3chanic.github.io/tags/pwn/" />
-            <category term="reversing" scheme="https://the-m3chanic.github.io/tags/reversing/" />
             <pubDate>Mon, 08 Jul 2024 04:04:33 +0530</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;lost-canary&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#lost-canary&#34;&gt;#&lt;/a&gt; lost-canary&lt;/h1&gt;
 &lt;h4 id=&#34;author-spicypete&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#author-spicypete&#34;&gt;#&lt;/a&gt; Author: spicypete&lt;/h4&gt;
@@ -200,10 +200,10 @@ To do this, we would need to pass the canary as part of the input, and doing tha
             <title>Writeup - t0y-b0x - bi0sCTF 2024</title>
             <link>https://the-m3chanic.github.io/2024/02/26/Writeup-t0y-b0x-bi0sCTF-2024/</link>
             <category term="Writeup" scheme="https://the-m3chanic.github.io/categories/Writeup/" />
-            <category term="writeup" scheme="https://the-m3chanic.github.io/tags/writeup/" />
-            <category term="reversing" scheme="https://the-m3chanic.github.io/tags/reversing/" />
             <category term="bi0sCTF" scheme="https://the-m3chanic.github.io/tags/bi0sCTF/" />
+            <category term="writeup" scheme="https://the-m3chanic.github.io/tags/writeup/" />
             <category term="crypto" scheme="https://the-m3chanic.github.io/tags/crypto/" />
+            <category term="reversing" scheme="https://the-m3chanic.github.io/tags/reversing/" />
             <category term="AES" scheme="https://the-m3chanic.github.io/tags/AES/" />
             <pubDate>Mon, 26 Feb 2024 22:39:06 +0530</pubDate>
             <description><![CDATA[ &lt;p&gt;&lt;strong&gt;tl;dr&lt;/strong&gt;&lt;/p&gt;
