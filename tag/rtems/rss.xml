@@ -1,0 +1,184 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>The Workshop</title>
+        <subtitle></subtitle>
+        <icon>https://the-m3chanic.github.io/images/favicon.ico</icon>
+        <link>https://the-m3chanic.github.io</link>
+        <author>
+          <name>Suraj Kumar</name>
+        </author>
+        <description></description>
+        <language>en</language>
+        <pubDate>Sun, 25 Aug 2024 17:11:29 +0530</pubDate>
+        <lastBuildDate>Sun, 25 Aug 2024 17:11:29 +0530</lastBuildDate>
+        <item>
+            <guid isPermalink="true">https://the-m3chanic.github.io/2024/08/25/GSoC-Final-Report/</guid>
+            <title>GSoC - Final Report</title>
+            <link>https://the-m3chanic.github.io/2024/08/25/GSoC-Final-Report/</link>
+            <category term="GSoC" scheme="https://the-m3chanic.github.io/categories/GSoC/" />
+            <category term="Google Summer of Code" scheme="https://the-m3chanic.github.io/tags/Google-Summer-of-Code/" />
+            <category term="GDB" scheme="https://the-m3chanic.github.io/tags/GDB/" />
+            <category term="RTEMS" scheme="https://the-m3chanic.github.io/tags/RTEMS/" />
+            <category term="Embedded" scheme="https://the-m3chanic.github.io/tags/Embedded/" />
+            <pubDate>Sun, 25 Aug 2024 17:11:29 +0530</pubDate>
+            <description><![CDATA[ &lt;p&gt;&lt;img data-src=&#34;/images/post_images/GSoC-Final-Report/GSoC-logo.png&#34; alt=&#34;gsoc logo&#34; /&gt;&lt;/p&gt;
+&lt;h1 id=&#34;gsoc-24-final-project-report&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#gsoc-24-final-project-report&#34;&gt;#&lt;/a&gt; GSoC &#39;24 - Final Project Report&lt;/h1&gt;
+&lt;p&gt;The following report summarises the work I have done during Google Summer of Code 2024, along with the results, scope for improvements and future work. This also serves as the final project report with all the contributions.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;strong&gt;Basic Info&lt;/strong&gt;&lt;/th&gt;
+&lt;th&gt;&lt;strong&gt;Details&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Name&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Suraj Kumar&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Email&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;bWFpbHRvOmhpc3VyYWprdW1hcjIwMDRAZ21haWwuY29t&#34;&gt;hisurajkumar2004@gmail.com&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Gitlab&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRsYWIucnRlbXMub3JnL3RoZS5tM2NoYW5pYw==&#34;&gt;the.m3chanic&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;LinkedIn&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cubGlua2VkaW4uY29tL2luL3RoZS1tM2NoYW5pYy8=&#34;&gt;the-m3chanic&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;University&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYW1yaXRhLmVkdS9jYW1wdXMvYW1yaXRhcHVyaS8=&#34;&gt;Amrita Vishwa Vidyapeetham, Amritapuri&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Organization&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cucnRlbXMub3Jn&#34;&gt;RTEMS Project&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Project Title&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Add Python initializer to GDB in RTEMS&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Project Link&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRsYWIucnRlbXMub3JnL3J0ZW1zLw==&#34;&gt;RTEMS Project Repository&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Project Tracker&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRsYWIucnRlbXMub3JnL2dyb3Vwcy9ydGVtcy8tL2VwaWNzLzE=&#34;&gt;RTEMS Project Tracker&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;background&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#background&#34;&gt;#&lt;/a&gt; Background&lt;/h2&gt;
+&lt;p&gt;My first contribution to Open Source software was pretty simple - it was a documentation fix for a tool I was using. I had some issues building it and figured that some of the steps were wrong, so I made a PR to fix it. It hit me a while later that I was probably helping a lot of people out by not letting them run into the same issue as me, and that felt nice.&lt;/p&gt;
+&lt;p&gt;I learned about RTEMS when looking for organisations that participated in GSoC &#39;24. I found the project very interesting and thought it would be cool to contribute something to it. I received my GSoC acceptance mail on May 2nd, and I knew from that moment on that this was going to be a unique Summer.&lt;/p&gt;
+&lt;h2 id=&#34;about-the-project&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#about-the-project&#34;&gt;#&lt;/a&gt; About the Project&lt;/h2&gt;
+&lt;p&gt;&lt;img data-src=&#34;/images/post_images/GSoC-Final-Report/RTEMS-logo.png&#34; alt=&#34;rtems logo&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;RTEMS (Real-Time Executive for Multiprocessor Systems) is an open-source real-time operating system (RTOS) designed for embedded systems requiring high reliability and deterministic behavior.&lt;/p&gt;
+&lt;p&gt;RTEMS provides the capability to build custom toolchains tailored to various target architectures, leveraging standard tools like GCC, Binutils, GDB and many more. These tools are essential for compiling, linking and debugging embedded applications on RTEMS.&lt;/p&gt;
+&lt;p&gt;The project involved modifying the &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9zb3VyY2V3YXJlLm9yZy9nZGIv&#34;&gt;GNU Debugger (GDB)&lt;/span&gt; to enhance its debugging capabilities within RTEMS.&lt;/p&gt;
+&lt;h2 id=&#34;problem-statement&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#problem-statement&#34;&gt;#&lt;/a&gt; Problem Statement&lt;/h2&gt;
+&lt;p&gt;GDB provides support built in to automatically load Python. This is for dynamic executables only. The way this works is: Whenever a specific library is loaded by the object file currently loaded in GDB, the linker will trigger GDB to correspondingly load the pretty-printing scripts for that library.&lt;/p&gt;
+&lt;p&gt;However, RTEMS is essentially fully statically linked, and the same cannot be said for statically linked executables. There is no linker in play to let GDB know when a library is loaded, and GDB does not automatically have Python loaded hence. This causes a problem because now there is an abundance of features being missed out on due to the inability to load Python automatically by GDB.&lt;/p&gt;
+&lt;h2 id=&#34;project-goals&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#project-goals&#34;&gt;#&lt;/a&gt; Project Goals&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Integrate a Python initializer into GDB for RTEMS to facilitate enhanced debugging&lt;/li&gt;
+&lt;li&gt;Enable GDB to automatically load pretty-printing scripts for RTEMS structures and libstdcxx classes.&lt;/li&gt;
+&lt;li&gt;Seamlessly integrate these changes into the RTEMS toolchain, reducing the need for involvement from the user&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;approach&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#approach&#34;&gt;#&lt;/a&gt; Approach&lt;/h2&gt;
+&lt;p&gt;I implemented the addition of a custom section:  &lt;code&gt;.debug_gdb_scripts&lt;/code&gt;  for RTEMS executables, allowing GDB to execute Python scripts upon program load. This approach was tailored specifically for RTEMS to overcome limitations with static linking.&lt;/p&gt;
+&lt;p&gt;Here is a flow chart highlighting the work flow underwent for the entire&lt;br /&gt;
+project:&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;/images/post_images/GSoC-Final-Report/project-flowchart.png&#34; alt=&#34;project flow chart&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;(Note: The boxes in Blue signify changes that apply to every application being built now on, and Yellow boxes signify changes to supporting scripts and updates to the build process)&lt;/p&gt;
+&lt;h2 id=&#34;work-completed-code-written&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#work-completed-code-written&#34;&gt;#&lt;/a&gt; &lt;strong&gt;Work Completed (CODE WRITTEN)&lt;/strong&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;these-include-the-merge-requests-i-made-that-have-gotten-approved&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#these-include-the-merge-requests-i-made-that-have-gotten-approved&#34;&gt;#&lt;/a&gt; (&lt;strong&gt;These include the Merge Requests I made that have gotten approved&lt;/strong&gt;)&lt;/h3&gt;
+&lt;h3 id=&#34;python-initializer-for-gdb&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#python-initializer-for-gdb&#34;&gt;#&lt;/a&gt; Python Initializer for GDB&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gitlab.rtems.org/rtems/rtos/rtems/-/merge_requests/98&#34;&gt;&lt;strong&gt;Merge Request !98 in RTOS&lt;/strong&gt;&lt;/a&gt;: Implemented a custom section  &lt;code&gt;.debug_gdb_scripts&lt;/code&gt;  in RTEMS executables for GDB to load Python scripts automatically.&lt;/li&gt;
+&lt;li&gt;Developed and tested integration with the RTEMS build system to ensure Python scripts are executed upon loading an application.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;pretty-printers-integration&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#pretty-printers-integration&#34;&gt;#&lt;/a&gt; Pretty-Printers Integration&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gitlab.rtems.org/rtems/tools/rtems-tools/-/merge_requests/26&#34;&gt;&lt;strong&gt;MR !26 in Tools&lt;/strong&gt;&lt;/a&gt;: Added support for pretty-printers for RTEMS-specific data structures.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gitlab.rtems.org/rtems/tools/rtems-tools/-/merge_requests/26&#34;&gt;&lt;strong&gt;MR !26 in Tools&lt;/strong&gt;&lt;/a&gt;: Created a script  &lt;code&gt;pprinter.py&lt;/code&gt;  to enhance GDB&#39;s ability to display RTEMS structures in a user-friendly format.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;integration-with-rtems-toolchain&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#integration-with-rtems-toolchain&#34;&gt;#&lt;/a&gt; Integration with RTEMS Toolchain&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gitlab.rtems.org/rtems/tools/rtems-source-builder/-/merge_requests/35&#34;&gt;&lt;strong&gt;MR !35 in RSB&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;https://gitlab.rtems.org/rtems/tools/rtems-source-builder/-/merge_requests/48&#34;&gt;&lt;strong&gt;MR !48 in RSB&lt;/strong&gt;&lt;/a&gt;: Modified the RTEMS Source Builder (RSB) to include the necessary changes for building  &lt;code&gt;stdcxx.py&lt;/code&gt;  with the latest GCC.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gitlab.rtems.org/rtems/docs/rtems-docs/-/merge_requests/43&#34;&gt;&lt;strong&gt;MR !43 in Docs&lt;/strong&gt;&lt;/a&gt;: Updated documentation to reflect new features and usage instructions.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;current-state&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#current-state&#34;&gt;#&lt;/a&gt; Current State&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;All major features have been implemented and tested.&lt;/li&gt;
+&lt;li&gt;Python initialization and pretty-printer support have been integrated into the RTEMS build system.&lt;/li&gt;
+&lt;li&gt;Pretty-printers for some basic RTEMS structures have been written and tested.&lt;/li&gt;
+&lt;li&gt;Documentation with the changes made to GDB, and setting up a debugging environment for embedded debugging&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;communication-and-work-management&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#communication-and-work-management&#34;&gt;#&lt;/a&gt; Communication and Work Management&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Discord was the primary platform of communication between my mentors and I, along with other members of the community&lt;/li&gt;
+&lt;li&gt;Weekly meetings to discuss Status Updates and keep everyone up to date with the project&lt;/li&gt;
+&lt;li&gt;The RTEMS Gitlab instance was used to coordinate issues, tickets, and Merge Request discussions, along with engineering discussions on Discord&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;future-scope-for-the-project&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#future-scope-for-the-project&#34;&gt;#&lt;/a&gt; Future Scope for the Project&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Add more RTEMS pretty-printer to support the feature for a larger number of Structures &amp;amp; Objects&lt;/li&gt;
+&lt;li&gt;Create a new class of RTEMS GDB commands (which would again, be automatically loaded and set up with no work from the User&#39;s perspective)&lt;/li&gt;
+&lt;li&gt;Extending the RTEMS Documentation further to add Debugging manuals for different debuggers, and eventually add RTEMS-specific GDB commands&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;challenges-faced-and-things-learned&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#challenges-faced-and-things-learned&#34;&gt;#&lt;/a&gt; Challenges Faced and Things Learned&lt;/h2&gt;
+&lt;h3 id=&#34;challenges&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#challenges&#34;&gt;#&lt;/a&gt; Challenges:&lt;/h3&gt;
+&lt;h4 id=&#34;integrating-python-and-gdb-with-static-linking-in-rtems&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#integrating-python-and-gdb-with-static-linking-in-rtems&#34;&gt;#&lt;/a&gt; Integrating Python and GDB with Static Linking in RTEMS&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;RTEMS uses static linking, which complicates GDB&#39;s ability to automatically load Python scripts, a feature that works for dynamically linked executables. This required developing a custom solution to ensure Python scripts could be executed within the RTEMS environment&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;developing-a-custom-solution-for-script-loading&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#developing-a-custom-solution-for-script-loading&#34;&gt;#&lt;/a&gt; Developing a Custom Solution for Script Loading&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;The conventional methods for loading Python scripts in GDB did not apply to RTEMS. I had to devise a new method to introduce a  &lt;code&gt;.debug_gdb_scripts&lt;/code&gt;  section in RTEMS executables&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;things-learned&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#things-learned&#34;&gt;#&lt;/a&gt; Things Learned:&lt;/h3&gt;
+&lt;h4 id=&#34;adaptability-and-problem-solving&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#adaptability-and-problem-solving&#34;&gt;#&lt;/a&gt; Adaptability and Problem-Solving&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;I learned to adapt to unexpected challenges, such as implementing a novel solution for integrating Python into GDB for RTEMS. This required creativity and persistence, especially when initial approaches did not work.&lt;/li&gt;
+&lt;li&gt;Developed a stronger ability to think outside the box and approach problems from different angles&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;effective-communication&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#effective-communication&#34;&gt;#&lt;/a&gt; Effective Communication&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Regular communication with mentors and team members was crucial. Coordinating through platforms like Discord and GitLab helped me understand the importance of clear, consistent updates and feedback&lt;/li&gt;
+&lt;li&gt;Enhanced skills in articulating ideas and progress effectively, which is vital for collaborative work&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;time-management&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#time-management&#34;&gt;#&lt;/a&gt; Time Management&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Balancing the demands of GSoC with other commitments required careful planning and prioritization. Managing a project with defined milestones and deadlines improved my time management skills&lt;/li&gt;
+&lt;li&gt;Improved ability to set realistic goals, manage deadlines, and handle multiple tasks efficiently&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;project-ownership-and-responsibility&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#project-ownership-and-responsibility&#34;&gt;#&lt;/a&gt; Project Ownership and Responsibility&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Taking ownership of the project from inception to completion underscored the importance of responsibility. Ensuring that my contributions were valuable and well-documented was a crucial aspect of this&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;feedback-and-iteration&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#feedback-and-iteration&#34;&gt;#&lt;/a&gt; Feedback and Iteration&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Receiving and acting on feedback was essential for refining my work. Iterative improvement based on input from my mentors helped me produce better results&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;note-of-thanks&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#note-of-thanks&#34;&gt;#&lt;/a&gt; Note of Thanks&lt;/h2&gt;
+&lt;p&gt;This project would not have seen its successful completion without the ongoing support of many people. I would specially like to thank:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Christian Mauderer&lt;/strong&gt; and &lt;strong&gt;Chris Johns&lt;/strong&gt;: For being fantastic mentors who were always ready to help me, and were patient with me (even with things I was initially clueless about). They have been with me from the very start and continue to support me.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Joel Sherrill&lt;/strong&gt;, &lt;strong&gt;Gedare Bloom&lt;/strong&gt; and &lt;strong&gt;Amar Takhar&lt;/strong&gt;: For being awesome maintainers and helping me along the way in more ways than I can recollect - not just regarding my project but also discussions outside it.&lt;/li&gt;
+&lt;li&gt;My mentors and peers at &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9iaTBzLmlu&#34;&gt;team bi0s&lt;/span&gt; - specifically my mentor &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly94LmNvbS9hbXVuX3JoYQ==&#34;&gt;AmunRha&lt;/span&gt; - for inspiring me to try out GSoC and encouraging me throughout.&lt;/li&gt;
+&lt;li&gt;My family, for their selfless support.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;footnotes&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#footnotes&#34;&gt;#&lt;/a&gt; Footnotes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9zdW1tZXJvZmNvZGUud2l0aGdvb2dsZS5jb20vcHJvZ3JhbXMvMjAyNC9wcm9qZWN0cy9adGVmUzlHTQ==&#34;&gt;Project Selection link&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kb2NzLmdvb2dsZS5jb20vZG9jdW1lbnQvZC8xVmVTLVFDSnY1SFVFNHBVVThqSi1PcXBZU3ZuZmZwWmNsWEY3S2JLR3FBdy9lZGl0P3VzcD1zaGFyaW5n&#34;&gt;Proposal&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRsYWIucnRlbXMub3JnL2dyb3Vwcy9ydGVtcy8tL2VwaWNzLzE=&#34;&gt;Project Tracker (Gitlab Epic)&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+ ]]></description>
+        </item>
+    </channel>
+</rss>

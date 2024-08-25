@@ -67,8 +67,8 @@ First, for emulation, I went with qemu. I already had a  &lt;code&gt;qemu-system
 &lt;p&gt;In next week&#39;s blog, I will be diving straight into the main crux of my project - the issue at hand, and how I plan on fixing it, stay tuned!&lt;/p&gt;
 </content>
         <category term="GSoC" scheme="https://the-m3chanic.github.io/categories/GSoC/" />
-        <category term="Embedded" scheme="https://the-m3chanic.github.io/tags/Embedded/" />
         <category term="GDB" scheme="https://the-m3chanic.github.io/tags/GDB/" />
+        <category term="Embedded" scheme="https://the-m3chanic.github.io/tags/Embedded/" />
         <category term="Debugging" scheme="https://the-m3chanic.github.io/tags/Debugging/" />
         <category term="Open source" scheme="https://the-m3chanic.github.io/tags/Open-source/" />
         <updated>2024-06-06T22:00:07.000Z</updated>
