@@ -85,9 +85,11 @@ Let&#39;s look at this logically - we know the binary has a print statement some
 &lt;p&gt;And that was my challenge! I hope you had fun solving it and (hopefully) also learned something new while doing it. 😃&lt;/p&gt;
 </content>
         <category term="Writeup" scheme="https://the-m3chanic.github.io/categories/Writeup/" />
-        <category term="security" scheme="https://the-m3chanic.github.io/tags/security/" />
+        <category term="Security" scheme="https://the-m3chanic.github.io/tags/Security/" />
+        <category term="Reversing" scheme="https://the-m3chanic.github.io/tags/Reversing/" />
         <category term="eBPF" scheme="https://the-m3chanic.github.io/tags/eBPF/" />
-        <category term="bi0s" scheme="https://the-m3chanic.github.io/tags/bi0s/" />
+        <category term="Writeup" scheme="https://the-m3chanic.github.io/tags/Writeup/" />
+        <category term="CTF" scheme="https://the-m3chanic.github.io/tags/CTF/" />
         <updated>2024-02-26T03:23:31.000Z</updated>
     </entry>
 </feed>

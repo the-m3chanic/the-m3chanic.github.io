@@ -89,9 +89,9 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Initial Exploration:&lt;/strong&gt; I began by reviewing existing solutions employed by companies like Rust and AdaCore, which typically involve adding a wrapper over the host GDB to resolve paths for pretty-printers. To gain deeper insights, I engaged in discussions with developers from both companies as well as with GDB developers to understand the rationale behind this approach. However, I found this method unsuitable for RTEMS due to its use of a distinct toolchain for each build, separate from the host toolchain. Additionally, the wrapper approach proved to be generally inefficient for our needs.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Implemented Solution:&lt;/strong&gt; I introduced a .debug_gdb_scripts section to every ELF binary. This was done by adding the section in the  &lt;code&gt;cpukit/sapi/src/exinit.c&lt;/code&gt;  file, since it is linked to every application built on RTEMS. As a result, every RTEMS-built application now includes this section.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Python script execution:&lt;/strong&gt; This new executable section contains a snippet of Python code that corrects paths and triggers GDB to run a script called &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL3BwcmludGVyLnB5&#34;&gt;pprinter.py&lt;/span&gt;. This script is responsible for registering both libstdcxx and RTEMS pretty-printers.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Toolchain Integration:&lt;/strong&gt; The &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL3N0ZGN4eC5weQ==&#34;&gt;stdcxx.py&lt;/span&gt; script, which registers the  &lt;code&gt;libstdcxx&lt;/code&gt;  pretty-printers, needs to know the version of GCC being used since the pretty-printer scripts provided by GCC vary with versions. Therefore, the script is built alongside the toolchain to ensure compatibility.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;RTEMS Pretty-Printer Registration:&lt;/strong&gt; Finally, the &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL3BwcmludGVyLnB5&#34;&gt;pprinter.py&lt;/span&gt; script invokes a build function from rtems_pprinter.py, which registers all the RTEMS-specific pretty-printers.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Python script execution:&lt;/strong&gt; This new executable section contains a snippet of Python code that corrects paths and triggers GDB to run a script called  &lt;code&gt;pprinter.py&lt;/code&gt; . This script is responsible for registering both libstdcxx and RTEMS pretty-printers.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Toolchain Integration:&lt;/strong&gt; The  &lt;code&gt;stdcxx.py&lt;/code&gt;  script, which registers the  &lt;code&gt;libstdcxx&lt;/code&gt;  pretty-printers, needs to know the version of GCC being used since the pretty-printer scripts provided by GCC vary with versions. Therefore, the script is built alongside the toolchain to ensure compatibility.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;RTEMS Pretty-Printer Registration:&lt;/strong&gt; Finally, the  &lt;code&gt;pprinter.py&lt;/code&gt;  script invokes a build function from rtems_pprinter.py, which registers all the RTEMS-specific pretty-printers.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Here is a flow chart highlighting the work flow underwent for the entire project:&lt;/p&gt;
 &lt;p&gt;&lt;img data-src=&#34;/images/post_images/GSoC-Final-Report/project-flowchart.png&#34; alt=&#34;project flow chart&#34; /&gt;&lt;/p&gt;
@@ -182,10 +182,11 @@
 &lt;/ul&gt;
 </content>
         <category term="GSoC" scheme="https://the-m3chanic.github.io/categories/GSoC/" />
-        <category term="Embedded" scheme="https://the-m3chanic.github.io/tags/Embedded/" />
-        <category term="GDB" scheme="https://the-m3chanic.github.io/tags/GDB/" />
         <category term="Google Summer of Code" scheme="https://the-m3chanic.github.io/tags/Google-Summer-of-Code/" />
+        <category term="GDB" scheme="https://the-m3chanic.github.io/tags/GDB/" />
         <category term="RTEMS" scheme="https://the-m3chanic.github.io/tags/RTEMS/" />
+        <category term="Embedded" scheme="https://the-m3chanic.github.io/tags/Embedded/" />
+        <category term="Debugging" scheme="https://the-m3chanic.github.io/tags/Debugging/" />
         <updated>2024-08-25T11:41:29.000Z</updated>
     </entry>
     <entry>
@@ -246,10 +247,11 @@ First, for emulation, I went with qemu. I already had a  &lt;code&gt;qemu-system
 &lt;p&gt;In next week&#39;s blog, I will be diving straight into the main crux of my project - the issue at hand, and how I plan on fixing it, stay tuned!&lt;/p&gt;
 </content>
         <category term="GSoC" scheme="https://the-m3chanic.github.io/categories/GSoC/" />
-        <category term="Embedded" scheme="https://the-m3chanic.github.io/tags/Embedded/" />
+        <category term="Google Summer of Code" scheme="https://the-m3chanic.github.io/tags/Google-Summer-of-Code/" />
         <category term="GDB" scheme="https://the-m3chanic.github.io/tags/GDB/" />
+        <category term="RTEMS" scheme="https://the-m3chanic.github.io/tags/RTEMS/" />
+        <category term="Embedded" scheme="https://the-m3chanic.github.io/tags/Embedded/" />
         <category term="Debugging" scheme="https://the-m3chanic.github.io/tags/Debugging/" />
-        <category term="Open source" scheme="https://the-m3chanic.github.io/tags/Open-source/" />
         <updated>2024-06-06T22:00:07.000Z</updated>
     </entry>
 </feed>

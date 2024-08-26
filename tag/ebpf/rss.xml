@@ -17,9 +17,11 @@
             <title>Writeup - beehive - bi0sCTF 2024</title>
             <link>https://the-m3chanic.github.io/2024/02/26/Writeup-beehive-bi0sCTF-2024/</link>
             <category term="Writeup" scheme="https://the-m3chanic.github.io/categories/Writeup/" />
-            <category term="security" scheme="https://the-m3chanic.github.io/tags/security/" />
+            <category term="Security" scheme="https://the-m3chanic.github.io/tags/Security/" />
+            <category term="Reversing" scheme="https://the-m3chanic.github.io/tags/Reversing/" />
             <category term="eBPF" scheme="https://the-m3chanic.github.io/tags/eBPF/" />
-            <category term="bi0s" scheme="https://the-m3chanic.github.io/tags/bi0s/" />
+            <category term="Writeup" scheme="https://the-m3chanic.github.io/tags/Writeup/" />
+            <category term="CTF" scheme="https://the-m3chanic.github.io/tags/CTF/" />
             <pubDate>Mon, 26 Feb 2024 08:53:31 +0530</pubDate>
             <description><![CDATA[ &lt;p&gt;&lt;strong&gt;tl;dr&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;

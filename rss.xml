@@ -17,10 +17,11 @@
             <title>GSoC - Final Report</title>
             <link>https://the-m3chanic.github.io/2024/08/25/GSoC-Final-Report/</link>
             <category term="GSoC" scheme="https://the-m3chanic.github.io/categories/GSoC/" />
-            <category term="Embedded" scheme="https://the-m3chanic.github.io/tags/Embedded/" />
-            <category term="GDB" scheme="https://the-m3chanic.github.io/tags/GDB/" />
             <category term="Google Summer of Code" scheme="https://the-m3chanic.github.io/tags/Google-Summer-of-Code/" />
+            <category term="GDB" scheme="https://the-m3chanic.github.io/tags/GDB/" />
             <category term="RTEMS" scheme="https://the-m3chanic.github.io/tags/RTEMS/" />
+            <category term="Embedded" scheme="https://the-m3chanic.github.io/tags/Embedded/" />
+            <category term="Debugging" scheme="https://the-m3chanic.github.io/tags/Debugging/" />
             <pubDate>Sun, 25 Aug 2024 17:11:29 +0530</pubDate>
             <description><![CDATA[ &lt;p&gt;&lt;img data-src=&#34;/images/post_images/GSoC-Final-Report/GSoC-logo.png&#34; alt=&#34;gsoc logo&#34; /&gt;&lt;/p&gt;
 &lt;h1 id=&#34;gsoc-24-final-project-report&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#gsoc-24-final-project-report&#34;&gt;#&lt;/a&gt; GSoC &#39;24 - Final Project Report&lt;/h1&gt;
@@ -98,9 +99,9 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Initial Exploration:&lt;/strong&gt; I began by reviewing existing solutions employed by companies like Rust and AdaCore, which typically involve adding a wrapper over the host GDB to resolve paths for pretty-printers. To gain deeper insights, I engaged in discussions with developers from both companies as well as with GDB developers to understand the rationale behind this approach. However, I found this method unsuitable for RTEMS due to its use of a distinct toolchain for each build, separate from the host toolchain. Additionally, the wrapper approach proved to be generally inefficient for our needs.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Implemented Solution:&lt;/strong&gt; I introduced a .debug_gdb_scripts section to every ELF binary. This was done by adding the section in the  &lt;code&gt;cpukit/sapi/src/exinit.c&lt;/code&gt;  file, since it is linked to every application built on RTEMS. As a result, every RTEMS-built application now includes this section.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Python script execution:&lt;/strong&gt; This new executable section contains a snippet of Python code that corrects paths and triggers GDB to run a script called &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL3BwcmludGVyLnB5&#34;&gt;pprinter.py&lt;/span&gt;. This script is responsible for registering both libstdcxx and RTEMS pretty-printers.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Toolchain Integration:&lt;/strong&gt; The &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL3N0ZGN4eC5weQ==&#34;&gt;stdcxx.py&lt;/span&gt; script, which registers the  &lt;code&gt;libstdcxx&lt;/code&gt;  pretty-printers, needs to know the version of GCC being used since the pretty-printer scripts provided by GCC vary with versions. Therefore, the script is built alongside the toolchain to ensure compatibility.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;RTEMS Pretty-Printer Registration:&lt;/strong&gt; Finally, the &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL3BwcmludGVyLnB5&#34;&gt;pprinter.py&lt;/span&gt; script invokes a build function from rtems_pprinter.py, which registers all the RTEMS-specific pretty-printers.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Python script execution:&lt;/strong&gt; This new executable section contains a snippet of Python code that corrects paths and triggers GDB to run a script called  &lt;code&gt;pprinter.py&lt;/code&gt; . This script is responsible for registering both libstdcxx and RTEMS pretty-printers.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Toolchain Integration:&lt;/strong&gt; The  &lt;code&gt;stdcxx.py&lt;/code&gt;  script, which registers the  &lt;code&gt;libstdcxx&lt;/code&gt;  pretty-printers, needs to know the version of GCC being used since the pretty-printer scripts provided by GCC vary with versions. Therefore, the script is built alongside the toolchain to ensure compatibility.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;RTEMS Pretty-Printer Registration:&lt;/strong&gt; Finally, the  &lt;code&gt;pprinter.py&lt;/code&gt;  script invokes a build function from rtems_pprinter.py, which registers all the RTEMS-specific pretty-printers.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Here is a flow chart highlighting the work flow underwent for the entire project:&lt;/p&gt;
 &lt;p&gt;&lt;img data-src=&#34;/images/post_images/GSoC-Final-Report/project-flowchart.png&#34; alt=&#34;project flow chart&#34; /&gt;&lt;/p&gt;
@@ -197,10 +198,10 @@
             <link>https://the-m3chanic.github.io/2024/07/08/Writeup-lost-canary-UIUCTF24/</link>
             <category term="Writeup" scheme="https://the-m3chanic.github.io/categories/Writeup/" />
             <category term="Security" scheme="https://the-m3chanic.github.io/tags/Security/" />
-            <category term="reversing" scheme="https://the-m3chanic.github.io/tags/reversing/" />
-            <category term="writeup" scheme="https://the-m3chanic.github.io/tags/writeup/" />
+            <category term="Reversing" scheme="https://the-m3chanic.github.io/tags/Reversing/" />
+            <category term="Writeup" scheme="https://the-m3chanic.github.io/tags/Writeup/" />
             <category term="CTF" scheme="https://the-m3chanic.github.io/tags/CTF/" />
-            <category term="pwn" scheme="https://the-m3chanic.github.io/tags/pwn/" />
+            <category term="Pwn" scheme="https://the-m3chanic.github.io/tags/Pwn/" />
             <pubDate>Mon, 08 Jul 2024 04:04:33 +0530</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;lost-canary&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#lost-canary&#34;&gt;#&lt;/a&gt; lost-canary&lt;/h1&gt;
 &lt;h4 id=&#34;author-spicypete&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#author-spicypete&#34;&gt;#&lt;/a&gt; Author: spicypete&lt;/h4&gt;
@@ -379,10 +380,11 @@ To do this, we would need to pass the canary as part of the input, and doing tha
             <title>GSoC with RTEMS! - 1/n</title>
             <link>https://the-m3chanic.github.io/2024/06/07/GSoC-with-RTEMS-1/</link>
             <category term="GSoC" scheme="https://the-m3chanic.github.io/categories/GSoC/" />
-            <category term="Embedded" scheme="https://the-m3chanic.github.io/tags/Embedded/" />
+            <category term="Google Summer of Code" scheme="https://the-m3chanic.github.io/tags/Google-Summer-of-Code/" />
             <category term="GDB" scheme="https://the-m3chanic.github.io/tags/GDB/" />
+            <category term="RTEMS" scheme="https://the-m3chanic.github.io/tags/RTEMS/" />
+            <category term="Embedded" scheme="https://the-m3chanic.github.io/tags/Embedded/" />
             <category term="Debugging" scheme="https://the-m3chanic.github.io/tags/Debugging/" />
-            <category term="Open source" scheme="https://the-m3chanic.github.io/tags/Open-source/" />
             <pubDate>Fri, 07 Jun 2024 03:30:07 +0530</pubDate>
             <description><![CDATA[ &lt;p&gt;Extending the features of a debugger, especially GDB, sounded like a fun and interesting project at first glance. I already have quite a bit of experience working with GDB, and use it almost daily while Reverse Engineering or during CTFs.&lt;br /&gt;
 For those of you that are not familiar, CTF stands for &amp;quot;Capture the Flag&amp;quot;. It is a competition wherein the hosting team creates and puts out challenges/services that are intentionally vulnerable - usually in a way that is specific to a single field of Cyber Security - and the point of the challenge is to figure out what the vulnerability is and use it to get a text string from it called a &amp;quot;flag&amp;quot;. Capture more flags, gain more points. I play CTFs with &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9iaTBzLmlu&#34;&gt;team bi0s&lt;/span&gt;.&lt;/p&gt;
@@ -447,6 +449,7 @@ First, for emulation, I went with qemu. I already had a  &lt;code&gt;qemu-system
             <category term="Security" scheme="https://the-m3chanic.github.io/tags/Security/" />
             <category term="C#" scheme="https://the-m3chanic.github.io/tags/C/" />
             <category term=".NET" scheme="https://the-m3chanic.github.io/tags/NET/" />
+            <category term="Reversing" scheme="https://the-m3chanic.github.io/tags/Reversing/" />
             <pubDate>Wed, 08 May 2024 08:09:58 +0530</pubDate>
             <description><![CDATA[ &lt;p&gt;When the topic of executing &lt;em&gt;hidden&lt;/em&gt; code comes up, one&#39;s mind often goes into techniques like process injection, C2 server shenanigans, polymorphic code, etc. But what if I tell you there is a method that can execute code that lies plain and simple in the binary, but you&#39;ll never see it?&lt;/p&gt;
 &lt;p&gt;Before we get started on the juicy stuff, I&#39;m afraid we&#39;ll need to learn some prerequisites first. If you happen to be an expert in the .NET compilation and runtime process, and also know how to read assembly, then I have some great news for you: you can skip past a bunch of stuff I&#39;m about to talk about and jump right into Reversing it (although I&#39;d appreciate you giving it a read for the 3 cans of chocolate milk that went into making this post).&lt;/p&gt;
@@ -573,11 +576,10 @@ Most likely, you&#39;ll have multiple results, but only one that corresponds to 
             <title>Writeup - t0y-b0x - bi0sCTF 2024</title>
             <link>https://the-m3chanic.github.io/2024/02/26/Writeup-t0y-b0x-bi0sCTF-2024/</link>
             <category term="Writeup" scheme="https://the-m3chanic.github.io/categories/Writeup/" />
-            <category term="reversing" scheme="https://the-m3chanic.github.io/tags/reversing/" />
-            <category term="writeup" scheme="https://the-m3chanic.github.io/tags/writeup/" />
-            <category term="bi0sCTF" scheme="https://the-m3chanic.github.io/tags/bi0sCTF/" />
-            <category term="crypto" scheme="https://the-m3chanic.github.io/tags/crypto/" />
-            <category term="AES" scheme="https://the-m3chanic.github.io/tags/AES/" />
+            <category term="Reversing" scheme="https://the-m3chanic.github.io/tags/Reversing/" />
+            <category term="Writeup" scheme="https://the-m3chanic.github.io/tags/Writeup/" />
+            <category term="CTF" scheme="https://the-m3chanic.github.io/tags/CTF/" />
+            <category term="Crypto" scheme="https://the-m3chanic.github.io/tags/Crypto/" />
             <pubDate>Mon, 26 Feb 2024 22:39:06 +0530</pubDate>
             <description><![CDATA[ &lt;p&gt;&lt;strong&gt;tl;dr&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -622,9 +624,11 @@ Additionally, the array that is being set is of length 256, another AES hint.&lt
             <title>Writeup - beehive - bi0sCTF 2024</title>
             <link>https://the-m3chanic.github.io/2024/02/26/Writeup-beehive-bi0sCTF-2024/</link>
             <category term="Writeup" scheme="https://the-m3chanic.github.io/categories/Writeup/" />
-            <category term="security" scheme="https://the-m3chanic.github.io/tags/security/" />
+            <category term="Security" scheme="https://the-m3chanic.github.io/tags/Security/" />
+            <category term="Reversing" scheme="https://the-m3chanic.github.io/tags/Reversing/" />
             <category term="eBPF" scheme="https://the-m3chanic.github.io/tags/eBPF/" />
-            <category term="bi0s" scheme="https://the-m3chanic.github.io/tags/bi0s/" />
+            <category term="Writeup" scheme="https://the-m3chanic.github.io/tags/Writeup/" />
+            <category term="CTF" scheme="https://the-m3chanic.github.io/tags/CTF/" />
             <pubDate>Mon, 26 Feb 2024 08:53:31 +0530</pubDate>
             <description><![CDATA[ &lt;p&gt;&lt;strong&gt;tl;dr&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -703,10 +707,10 @@ Let&#39;s look at this logically - we know the binary has a print statement some
             <title>Secure Computing - Iris CTF 2024 Writeup</title>
             <link>https://the-m3chanic.github.io/2024/01/26/Writeup-Secure-Computing-IRIS-CTF-2024/</link>
             <category term="Writeup" scheme="https://the-m3chanic.github.io/categories/Writeup/" />
-            <category term="security" scheme="https://the-m3chanic.github.io/tags/security/" />
-            <category term="ctf" scheme="https://the-m3chanic.github.io/tags/ctf/" />
+            <category term="Security" scheme="https://the-m3chanic.github.io/tags/Security/" />
+            <category term="Reversing" scheme="https://the-m3chanic.github.io/tags/Reversing/" />
+            <category term="CTF" scheme="https://the-m3chanic.github.io/tags/CTF/" />
             <category term="IrisCTF" scheme="https://the-m3chanic.github.io/tags/IrisCTF/" />
-            <category term="reversing" scheme="https://the-m3chanic.github.io/tags/reversing/" />
             <pubDate>Fri, 26 Jan 2024 06:42:26 +0530</pubDate>
             <description><![CDATA[ &lt;p&gt;Note: My team and I didn&#39;t end up solving this during the CTF, we got very close though. This writeup goes through the steps I took to finish solving the challenge after the CTF ended. Hopefully you learn a thing or two 😃&lt;/p&gt;
 &lt;p&gt;&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;Your own secure computer can check the flag! Might have forgotten to add the logic to the program, but I think if you guess enough, you can figure it out. Not sure&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;

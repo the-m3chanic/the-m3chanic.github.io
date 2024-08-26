@@ -18,10 +18,10 @@
             <link>https://the-m3chanic.github.io/2024/07/08/Writeup-lost-canary-UIUCTF24/</link>
             <category term="Writeup" scheme="https://the-m3chanic.github.io/categories/Writeup/" />
             <category term="Security" scheme="https://the-m3chanic.github.io/tags/Security/" />
-            <category term="reversing" scheme="https://the-m3chanic.github.io/tags/reversing/" />
-            <category term="writeup" scheme="https://the-m3chanic.github.io/tags/writeup/" />
+            <category term="Reversing" scheme="https://the-m3chanic.github.io/tags/Reversing/" />
+            <category term="Writeup" scheme="https://the-m3chanic.github.io/tags/Writeup/" />
             <category term="CTF" scheme="https://the-m3chanic.github.io/tags/CTF/" />
-            <category term="pwn" scheme="https://the-m3chanic.github.io/tags/pwn/" />
+            <category term="Pwn" scheme="https://the-m3chanic.github.io/tags/Pwn/" />
             <pubDate>Mon, 08 Jul 2024 04:04:33 +0530</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;lost-canary&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#lost-canary&#34;&gt;#&lt;/a&gt; lost-canary&lt;/h1&gt;
 &lt;h4 id=&#34;author-spicypete&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#author-spicypete&#34;&gt;#&lt;/a&gt; Author: spicypete&lt;/h4&gt;

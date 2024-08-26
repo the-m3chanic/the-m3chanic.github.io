@@ -137,6 +137,7 @@ Most likely, you&#39;ll have multiple results, but only one that corresponds to 
         <category term="Security" scheme="https://the-m3chanic.github.io/tags/Security/" />
         <category term="C#" scheme="https://the-m3chanic.github.io/tags/C/" />
         <category term=".NET" scheme="https://the-m3chanic.github.io/tags/NET/" />
+        <category term="Reversing" scheme="https://the-m3chanic.github.io/tags/Reversing/" />
         <updated>2024-05-08T02:39:58.000Z</updated>
     </entry>
 </feed>

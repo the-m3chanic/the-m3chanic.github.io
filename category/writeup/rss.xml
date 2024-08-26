@@ -18,10 +18,10 @@
             <link>https://the-m3chanic.github.io/2024/07/08/Writeup-lost-canary-UIUCTF24/</link>
             <category term="Writeup" scheme="https://the-m3chanic.github.io/categories/Writeup/" />
             <category term="Security" scheme="https://the-m3chanic.github.io/tags/Security/" />
-            <category term="reversing" scheme="https://the-m3chanic.github.io/tags/reversing/" />
-            <category term="writeup" scheme="https://the-m3chanic.github.io/tags/writeup/" />
+            <category term="Reversing" scheme="https://the-m3chanic.github.io/tags/Reversing/" />
+            <category term="Writeup" scheme="https://the-m3chanic.github.io/tags/Writeup/" />
             <category term="CTF" scheme="https://the-m3chanic.github.io/tags/CTF/" />
-            <category term="pwn" scheme="https://the-m3chanic.github.io/tags/pwn/" />
+            <category term="Pwn" scheme="https://the-m3chanic.github.io/tags/Pwn/" />
             <pubDate>Mon, 08 Jul 2024 04:04:33 +0530</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;lost-canary&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#lost-canary&#34;&gt;#&lt;/a&gt; lost-canary&lt;/h1&gt;
 &lt;h4 id=&#34;author-spicypete&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#author-spicypete&#34;&gt;#&lt;/a&gt; Author: spicypete&lt;/h4&gt;
@@ -200,11 +200,10 @@ To do this, we would need to pass the canary as part of the input, and doing tha
             <title>Writeup - t0y-b0x - bi0sCTF 2024</title>
             <link>https://the-m3chanic.github.io/2024/02/26/Writeup-t0y-b0x-bi0sCTF-2024/</link>
             <category term="Writeup" scheme="https://the-m3chanic.github.io/categories/Writeup/" />
-            <category term="reversing" scheme="https://the-m3chanic.github.io/tags/reversing/" />
-            <category term="writeup" scheme="https://the-m3chanic.github.io/tags/writeup/" />
-            <category term="bi0sCTF" scheme="https://the-m3chanic.github.io/tags/bi0sCTF/" />
-            <category term="crypto" scheme="https://the-m3chanic.github.io/tags/crypto/" />
-            <category term="AES" scheme="https://the-m3chanic.github.io/tags/AES/" />
+            <category term="Reversing" scheme="https://the-m3chanic.github.io/tags/Reversing/" />
+            <category term="Writeup" scheme="https://the-m3chanic.github.io/tags/Writeup/" />
+            <category term="CTF" scheme="https://the-m3chanic.github.io/tags/CTF/" />
+            <category term="Crypto" scheme="https://the-m3chanic.github.io/tags/Crypto/" />
             <pubDate>Mon, 26 Feb 2024 22:39:06 +0530</pubDate>
             <description><![CDATA[ &lt;p&gt;&lt;strong&gt;tl;dr&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -249,9 +248,11 @@ Additionally, the array that is being set is of length 256, another AES hint.&lt
             <title>Writeup - beehive - bi0sCTF 2024</title>
             <link>https://the-m3chanic.github.io/2024/02/26/Writeup-beehive-bi0sCTF-2024/</link>
             <category term="Writeup" scheme="https://the-m3chanic.github.io/categories/Writeup/" />
-            <category term="security" scheme="https://the-m3chanic.github.io/tags/security/" />
+            <category term="Security" scheme="https://the-m3chanic.github.io/tags/Security/" />
+            <category term="Reversing" scheme="https://the-m3chanic.github.io/tags/Reversing/" />
             <category term="eBPF" scheme="https://the-m3chanic.github.io/tags/eBPF/" />
-            <category term="bi0s" scheme="https://the-m3chanic.github.io/tags/bi0s/" />
+            <category term="Writeup" scheme="https://the-m3chanic.github.io/tags/Writeup/" />
+            <category term="CTF" scheme="https://the-m3chanic.github.io/tags/CTF/" />
             <pubDate>Mon, 26 Feb 2024 08:53:31 +0530</pubDate>
             <description><![CDATA[ &lt;p&gt;&lt;strong&gt;tl;dr&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -330,10 +331,10 @@ Let&#39;s look at this logically - we know the binary has a print statement some
             <title>Secure Computing - Iris CTF 2024 Writeup</title>
             <link>https://the-m3chanic.github.io/2024/01/26/Writeup-Secure-Computing-IRIS-CTF-2024/</link>
             <category term="Writeup" scheme="https://the-m3chanic.github.io/categories/Writeup/" />
-            <category term="security" scheme="https://the-m3chanic.github.io/tags/security/" />
-            <category term="ctf" scheme="https://the-m3chanic.github.io/tags/ctf/" />
+            <category term="Security" scheme="https://the-m3chanic.github.io/tags/Security/" />
+            <category term="Reversing" scheme="https://the-m3chanic.github.io/tags/Reversing/" />
+            <category term="CTF" scheme="https://the-m3chanic.github.io/tags/CTF/" />
             <category term="IrisCTF" scheme="https://the-m3chanic.github.io/tags/IrisCTF/" />
-            <category term="reversing" scheme="https://the-m3chanic.github.io/tags/reversing/" />
             <pubDate>Fri, 26 Jan 2024 06:42:26 +0530</pubDate>
             <description><![CDATA[ &lt;p&gt;Note: My team and I didn&#39;t end up solving this during the CTF, we got very close though. This writeup goes through the steps I took to finish solving the challenge after the CTF ended. Hopefully you learn a thing or two 😃&lt;/p&gt;
 &lt;p&gt;&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;Your own secure computer can check the flag! Might have forgotten to add the logic to the program, but I think if you guess enough, you can figure it out. Not sure&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;

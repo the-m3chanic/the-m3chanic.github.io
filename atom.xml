@@ -89,9 +89,9 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Initial Exploration:&lt;/strong&gt; I began by reviewing existing solutions employed by companies like Rust and AdaCore, which typically involve adding a wrapper over the host GDB to resolve paths for pretty-printers. To gain deeper insights, I engaged in discussions with developers from both companies as well as with GDB developers to understand the rationale behind this approach. However, I found this method unsuitable for RTEMS due to its use of a distinct toolchain for each build, separate from the host toolchain. Additionally, the wrapper approach proved to be generally inefficient for our needs.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Implemented Solution:&lt;/strong&gt; I introduced a .debug_gdb_scripts section to every ELF binary. This was done by adding the section in the  &lt;code&gt;cpukit/sapi/src/exinit.c&lt;/code&gt;  file, since it is linked to every application built on RTEMS. As a result, every RTEMS-built application now includes this section.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Python script execution:&lt;/strong&gt; This new executable section contains a snippet of Python code that corrects paths and triggers GDB to run a script called &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL3BwcmludGVyLnB5&#34;&gt;pprinter.py&lt;/span&gt;. This script is responsible for registering both libstdcxx and RTEMS pretty-printers.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Toolchain Integration:&lt;/strong&gt; The &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL3N0ZGN4eC5weQ==&#34;&gt;stdcxx.py&lt;/span&gt; script, which registers the  &lt;code&gt;libstdcxx&lt;/code&gt;  pretty-printers, needs to know the version of GCC being used since the pretty-printer scripts provided by GCC vary with versions. Therefore, the script is built alongside the toolchain to ensure compatibility.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;RTEMS Pretty-Printer Registration:&lt;/strong&gt; Finally, the &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL3BwcmludGVyLnB5&#34;&gt;pprinter.py&lt;/span&gt; script invokes a build function from rtems_pprinter.py, which registers all the RTEMS-specific pretty-printers.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Python script execution:&lt;/strong&gt; This new executable section contains a snippet of Python code that corrects paths and triggers GDB to run a script called  &lt;code&gt;pprinter.py&lt;/code&gt; . This script is responsible for registering both libstdcxx and RTEMS pretty-printers.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Toolchain Integration:&lt;/strong&gt; The  &lt;code&gt;stdcxx.py&lt;/code&gt;  script, which registers the  &lt;code&gt;libstdcxx&lt;/code&gt;  pretty-printers, needs to know the version of GCC being used since the pretty-printer scripts provided by GCC vary with versions. Therefore, the script is built alongside the toolchain to ensure compatibility.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;RTEMS Pretty-Printer Registration:&lt;/strong&gt; Finally, the  &lt;code&gt;pprinter.py&lt;/code&gt;  script invokes a build function from rtems_pprinter.py, which registers all the RTEMS-specific pretty-printers.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Here is a flow chart highlighting the work flow underwent for the entire project:&lt;/p&gt;
 &lt;p&gt;&lt;img data-src=&#34;/images/post_images/GSoC-Final-Report/project-flowchart.png&#34; alt=&#34;project flow chart&#34; /&gt;&lt;/p&gt;
@@ -182,10 +182,11 @@
 &lt;/ul&gt;
 </content>
         <category term="GSoC" scheme="https://the-m3chanic.github.io/categories/GSoC/" />
-        <category term="Embedded" scheme="https://the-m3chanic.github.io/tags/Embedded/" />
-        <category term="GDB" scheme="https://the-m3chanic.github.io/tags/GDB/" />
         <category term="Google Summer of Code" scheme="https://the-m3chanic.github.io/tags/Google-Summer-of-Code/" />
+        <category term="GDB" scheme="https://the-m3chanic.github.io/tags/GDB/" />
         <category term="RTEMS" scheme="https://the-m3chanic.github.io/tags/RTEMS/" />
+        <category term="Embedded" scheme="https://the-m3chanic.github.io/tags/Embedded/" />
+        <category term="Debugging" scheme="https://the-m3chanic.github.io/tags/Debugging/" />
         <updated>2024-08-25T11:41:29.000Z</updated>
     </entry>
     <entry>
@@ -365,10 +366,10 @@ To do this, we would need to pass the canary as part of the input, and doing tha
 </content>
         <category term="Writeup" scheme="https://the-m3chanic.github.io/categories/Writeup/" />
         <category term="Security" scheme="https://the-m3chanic.github.io/tags/Security/" />
-        <category term="reversing" scheme="https://the-m3chanic.github.io/tags/reversing/" />
-        <category term="writeup" scheme="https://the-m3chanic.github.io/tags/writeup/" />
+        <category term="Reversing" scheme="https://the-m3chanic.github.io/tags/Reversing/" />
+        <category term="Writeup" scheme="https://the-m3chanic.github.io/tags/Writeup/" />
         <category term="CTF" scheme="https://the-m3chanic.github.io/tags/CTF/" />
-        <category term="pwn" scheme="https://the-m3chanic.github.io/tags/pwn/" />
+        <category term="Pwn" scheme="https://the-m3chanic.github.io/tags/Pwn/" />
         <updated>2024-07-07T22:34:33.000Z</updated>
     </entry>
     <entry>
@@ -429,10 +430,11 @@ First, for emulation, I went with qemu. I already had a  &lt;code&gt;qemu-system
 &lt;p&gt;In next week&#39;s blog, I will be diving straight into the main crux of my project - the issue at hand, and how I plan on fixing it, stay tuned!&lt;/p&gt;
 </content>
         <category term="GSoC" scheme="https://the-m3chanic.github.io/categories/GSoC/" />
-        <category term="Embedded" scheme="https://the-m3chanic.github.io/tags/Embedded/" />
+        <category term="Google Summer of Code" scheme="https://the-m3chanic.github.io/tags/Google-Summer-of-Code/" />
         <category term="GDB" scheme="https://the-m3chanic.github.io/tags/GDB/" />
+        <category term="RTEMS" scheme="https://the-m3chanic.github.io/tags/RTEMS/" />
+        <category term="Embedded" scheme="https://the-m3chanic.github.io/tags/Embedded/" />
         <category term="Debugging" scheme="https://the-m3chanic.github.io/tags/Debugging/" />
-        <category term="Open source" scheme="https://the-m3chanic.github.io/tags/Open-source/" />
         <updated>2024-06-06T22:00:07.000Z</updated>
     </entry>
     <entry>
@@ -563,6 +565,7 @@ Most likely, you&#39;ll have multiple results, but only one that corresponds to 
         <category term="Security" scheme="https://the-m3chanic.github.io/tags/Security/" />
         <category term="C#" scheme="https://the-m3chanic.github.io/tags/C/" />
         <category term=".NET" scheme="https://the-m3chanic.github.io/tags/NET/" />
+        <category term="Reversing" scheme="https://the-m3chanic.github.io/tags/Reversing/" />
         <updated>2024-05-08T02:39:58.000Z</updated>
     </entry>
     <entry>
@@ -607,11 +610,10 @@ Additionally, the array that is being set is of length 256, another AES hint.&lt
 &lt;p&gt;Overall, this was an easy to medium challenge, with just some obfuscation to hide some things being generated in the binary and a vulnerable implementation of AES being implemented. I hope you guys had fun solving the challenge and learnt something new from it as well! 😃&lt;/p&gt;
 </content>
         <category term="Writeup" scheme="https://the-m3chanic.github.io/categories/Writeup/" />
-        <category term="reversing" scheme="https://the-m3chanic.github.io/tags/reversing/" />
-        <category term="writeup" scheme="https://the-m3chanic.github.io/tags/writeup/" />
-        <category term="bi0sCTF" scheme="https://the-m3chanic.github.io/tags/bi0sCTF/" />
-        <category term="crypto" scheme="https://the-m3chanic.github.io/tags/crypto/" />
-        <category term="AES" scheme="https://the-m3chanic.github.io/tags/AES/" />
+        <category term="Reversing" scheme="https://the-m3chanic.github.io/tags/Reversing/" />
+        <category term="Writeup" scheme="https://the-m3chanic.github.io/tags/Writeup/" />
+        <category term="CTF" scheme="https://the-m3chanic.github.io/tags/CTF/" />
+        <category term="Crypto" scheme="https://the-m3chanic.github.io/tags/Crypto/" />
         <updated>2024-02-26T17:09:06.000Z</updated>
     </entry>
     <entry>
@@ -690,9 +692,11 @@ Let&#39;s look at this logically - we know the binary has a print statement some
 &lt;p&gt;And that was my challenge! I hope you had fun solving it and (hopefully) also learned something new while doing it. 😃&lt;/p&gt;
 </content>
         <category term="Writeup" scheme="https://the-m3chanic.github.io/categories/Writeup/" />
-        <category term="security" scheme="https://the-m3chanic.github.io/tags/security/" />
+        <category term="Security" scheme="https://the-m3chanic.github.io/tags/Security/" />
+        <category term="Reversing" scheme="https://the-m3chanic.github.io/tags/Reversing/" />
         <category term="eBPF" scheme="https://the-m3chanic.github.io/tags/eBPF/" />
-        <category term="bi0s" scheme="https://the-m3chanic.github.io/tags/bi0s/" />
+        <category term="Writeup" scheme="https://the-m3chanic.github.io/tags/Writeup/" />
+        <category term="CTF" scheme="https://the-m3chanic.github.io/tags/CTF/" />
         <updated>2024-02-26T03:23:31.000Z</updated>
     </entry>
     <entry>
@@ -781,10 +785,10 @@ First thing that comes to mind is z3, so let&#39;s go for that.&lt;/p&gt;
 &lt;p&gt;All in all, this was a very fun challenge for me to solve - with lots to learn. GGs to the author from IrisSec for making such a unique challenge!&lt;/p&gt;
 </content>
         <category term="Writeup" scheme="https://the-m3chanic.github.io/categories/Writeup/" />
-        <category term="security" scheme="https://the-m3chanic.github.io/tags/security/" />
-        <category term="ctf" scheme="https://the-m3chanic.github.io/tags/ctf/" />
+        <category term="Security" scheme="https://the-m3chanic.github.io/tags/Security/" />
+        <category term="Reversing" scheme="https://the-m3chanic.github.io/tags/Reversing/" />
+        <category term="CTF" scheme="https://the-m3chanic.github.io/tags/CTF/" />
         <category term="IrisCTF" scheme="https://the-m3chanic.github.io/tags/IrisCTF/" />
-        <category term="reversing" scheme="https://the-m3chanic.github.io/tags/reversing/" />
         <updated>2024-01-26T01:12:26.000Z</updated>
     </entry>
     <entry>

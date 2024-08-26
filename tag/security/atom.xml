@@ -186,10 +186,10 @@ To do this, we would need to pass the canary as part of the input, and doing tha
 </content>
         <category term="Writeup" scheme="https://the-m3chanic.github.io/categories/Writeup/" />
         <category term="Security" scheme="https://the-m3chanic.github.io/tags/Security/" />
-        <category term="reversing" scheme="https://the-m3chanic.github.io/tags/reversing/" />
-        <category term="writeup" scheme="https://the-m3chanic.github.io/tags/writeup/" />
+        <category term="Reversing" scheme="https://the-m3chanic.github.io/tags/Reversing/" />
+        <category term="Writeup" scheme="https://the-m3chanic.github.io/tags/Writeup/" />
         <category term="CTF" scheme="https://the-m3chanic.github.io/tags/CTF/" />
-        <category term="pwn" scheme="https://the-m3chanic.github.io/tags/pwn/" />
+        <category term="Pwn" scheme="https://the-m3chanic.github.io/tags/Pwn/" />
         <updated>2024-07-07T22:34:33.000Z</updated>
     </entry>
     <entry>
@@ -320,6 +320,7 @@ Most likely, you&#39;ll have multiple results, but only one that corresponds to 
         <category term="Security" scheme="https://the-m3chanic.github.io/tags/Security/" />
         <category term="C#" scheme="https://the-m3chanic.github.io/tags/C/" />
         <category term=".NET" scheme="https://the-m3chanic.github.io/tags/NET/" />
+        <category term="Reversing" scheme="https://the-m3chanic.github.io/tags/Reversing/" />
         <updated>2024-05-08T02:39:58.000Z</updated>
     </entry>
     <entry>
@@ -398,9 +399,11 @@ Let&#39;s look at this logically - we know the binary has a print statement some
 &lt;p&gt;And that was my challenge! I hope you had fun solving it and (hopefully) also learned something new while doing it. 😃&lt;/p&gt;
 </content>
         <category term="Writeup" scheme="https://the-m3chanic.github.io/categories/Writeup/" />
-        <category term="security" scheme="https://the-m3chanic.github.io/tags/security/" />
+        <category term="Security" scheme="https://the-m3chanic.github.io/tags/Security/" />
+        <category term="Reversing" scheme="https://the-m3chanic.github.io/tags/Reversing/" />
         <category term="eBPF" scheme="https://the-m3chanic.github.io/tags/eBPF/" />
-        <category term="bi0s" scheme="https://the-m3chanic.github.io/tags/bi0s/" />
+        <category term="Writeup" scheme="https://the-m3chanic.github.io/tags/Writeup/" />
+        <category term="CTF" scheme="https://the-m3chanic.github.io/tags/CTF/" />
         <updated>2024-02-26T03:23:31.000Z</updated>
     </entry>
     <entry>
@@ -489,10 +492,10 @@ First thing that comes to mind is z3, so let&#39;s go for that.&lt;/p&gt;
 &lt;p&gt;All in all, this was a very fun challenge for me to solve - with lots to learn. GGs to the author from IrisSec for making such a unique challenge!&lt;/p&gt;
 </content>
         <category term="Writeup" scheme="https://the-m3chanic.github.io/categories/Writeup/" />
-        <category term="security" scheme="https://the-m3chanic.github.io/tags/security/" />
-        <category term="ctf" scheme="https://the-m3chanic.github.io/tags/ctf/" />
+        <category term="Security" scheme="https://the-m3chanic.github.io/tags/Security/" />
+        <category term="Reversing" scheme="https://the-m3chanic.github.io/tags/Reversing/" />
+        <category term="CTF" scheme="https://the-m3chanic.github.io/tags/CTF/" />
         <category term="IrisCTF" scheme="https://the-m3chanic.github.io/tags/IrisCTF/" />
-        <category term="reversing" scheme="https://the-m3chanic.github.io/tags/reversing/" />
         <updated>2024-01-26T01:12:26.000Z</updated>
     </entry>
 </feed>

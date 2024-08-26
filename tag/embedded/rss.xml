@@ -17,10 +17,11 @@
             <title>GSoC - Final Report</title>
             <link>https://the-m3chanic.github.io/2024/08/25/GSoC-Final-Report/</link>
             <category term="GSoC" scheme="https://the-m3chanic.github.io/categories/GSoC/" />
-            <category term="Embedded" scheme="https://the-m3chanic.github.io/tags/Embedded/" />
-            <category term="GDB" scheme="https://the-m3chanic.github.io/tags/GDB/" />
             <category term="Google Summer of Code" scheme="https://the-m3chanic.github.io/tags/Google-Summer-of-Code/" />
+            <category term="GDB" scheme="https://the-m3chanic.github.io/tags/GDB/" />
             <category term="RTEMS" scheme="https://the-m3chanic.github.io/tags/RTEMS/" />
+            <category term="Embedded" scheme="https://the-m3chanic.github.io/tags/Embedded/" />
+            <category term="Debugging" scheme="https://the-m3chanic.github.io/tags/Debugging/" />
             <pubDate>Sun, 25 Aug 2024 17:11:29 +0530</pubDate>
             <description><![CDATA[ &lt;p&gt;&lt;img data-src=&#34;/images/post_images/GSoC-Final-Report/GSoC-logo.png&#34; alt=&#34;gsoc logo&#34; /&gt;&lt;/p&gt;
 &lt;h1 id=&#34;gsoc-24-final-project-report&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#gsoc-24-final-project-report&#34;&gt;#&lt;/a&gt; GSoC &#39;24 - Final Project Report&lt;/h1&gt;
@@ -98,9 +99,9 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Initial Exploration:&lt;/strong&gt; I began by reviewing existing solutions employed by companies like Rust and AdaCore, which typically involve adding a wrapper over the host GDB to resolve paths for pretty-printers. To gain deeper insights, I engaged in discussions with developers from both companies as well as with GDB developers to understand the rationale behind this approach. However, I found this method unsuitable for RTEMS due to its use of a distinct toolchain for each build, separate from the host toolchain. Additionally, the wrapper approach proved to be generally inefficient for our needs.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Implemented Solution:&lt;/strong&gt; I introduced a .debug_gdb_scripts section to every ELF binary. This was done by adding the section in the  &lt;code&gt;cpukit/sapi/src/exinit.c&lt;/code&gt;  file, since it is linked to every application built on RTEMS. As a result, every RTEMS-built application now includes this section.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Python script execution:&lt;/strong&gt; This new executable section contains a snippet of Python code that corrects paths and triggers GDB to run a script called &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL3BwcmludGVyLnB5&#34;&gt;pprinter.py&lt;/span&gt;. This script is responsible for registering both libstdcxx and RTEMS pretty-printers.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Toolchain Integration:&lt;/strong&gt; The &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL3N0ZGN4eC5weQ==&#34;&gt;stdcxx.py&lt;/span&gt; script, which registers the  &lt;code&gt;libstdcxx&lt;/code&gt;  pretty-printers, needs to know the version of GCC being used since the pretty-printer scripts provided by GCC vary with versions. Therefore, the script is built alongside the toolchain to ensure compatibility.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;RTEMS Pretty-Printer Registration:&lt;/strong&gt; Finally, the &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL3BwcmludGVyLnB5&#34;&gt;pprinter.py&lt;/span&gt; script invokes a build function from rtems_pprinter.py, which registers all the RTEMS-specific pretty-printers.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Python script execution:&lt;/strong&gt; This new executable section contains a snippet of Python code that corrects paths and triggers GDB to run a script called  &lt;code&gt;pprinter.py&lt;/code&gt; . This script is responsible for registering both libstdcxx and RTEMS pretty-printers.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Toolchain Integration:&lt;/strong&gt; The  &lt;code&gt;stdcxx.py&lt;/code&gt;  script, which registers the  &lt;code&gt;libstdcxx&lt;/code&gt;  pretty-printers, needs to know the version of GCC being used since the pretty-printer scripts provided by GCC vary with versions. Therefore, the script is built alongside the toolchain to ensure compatibility.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;RTEMS Pretty-Printer Registration:&lt;/strong&gt; Finally, the  &lt;code&gt;pprinter.py&lt;/code&gt;  script invokes a build function from rtems_pprinter.py, which registers all the RTEMS-specific pretty-printers.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Here is a flow chart highlighting the work flow underwent for the entire project:&lt;/p&gt;
 &lt;p&gt;&lt;img data-src=&#34;/images/post_images/GSoC-Final-Report/project-flowchart.png&#34; alt=&#34;project flow chart&#34; /&gt;&lt;/p&gt;
@@ -196,10 +197,11 @@
             <title>GSoC with RTEMS! - 1/n</title>
             <link>https://the-m3chanic.github.io/2024/06/07/GSoC-with-RTEMS-1/</link>
             <category term="GSoC" scheme="https://the-m3chanic.github.io/categories/GSoC/" />
-            <category term="Embedded" scheme="https://the-m3chanic.github.io/tags/Embedded/" />
+            <category term="Google Summer of Code" scheme="https://the-m3chanic.github.io/tags/Google-Summer-of-Code/" />
             <category term="GDB" scheme="https://the-m3chanic.github.io/tags/GDB/" />
+            <category term="RTEMS" scheme="https://the-m3chanic.github.io/tags/RTEMS/" />
+            <category term="Embedded" scheme="https://the-m3chanic.github.io/tags/Embedded/" />
             <category term="Debugging" scheme="https://the-m3chanic.github.io/tags/Debugging/" />
-            <category term="Open source" scheme="https://the-m3chanic.github.io/tags/Open-source/" />
             <pubDate>Fri, 07 Jun 2024 03:30:07 +0530</pubDate>
             <description><![CDATA[ &lt;p&gt;Extending the features of a debugger, especially GDB, sounded like a fun and interesting project at first glance. I already have quite a bit of experience working with GDB, and use it almost daily while Reverse Engineering or during CTFs.&lt;br /&gt;
 For those of you that are not familiar, CTF stands for &amp;quot;Capture the Flag&amp;quot;. It is a competition wherein the hosting team creates and puts out challenges/services that are intentionally vulnerable - usually in a way that is specific to a single field of Cyber Security - and the point of the challenge is to figure out what the vulnerability is and use it to get a text string from it called a &amp;quot;flag&amp;quot;. Capture more flags, gain more points. I play CTFs with &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9iaTBzLmlu&#34;&gt;team bi0s&lt;/span&gt;.&lt;/p&gt;
