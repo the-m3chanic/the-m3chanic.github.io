@@ -186,10 +186,10 @@ To do this, we would need to pass the canary as part of the input, and doing tha
 </content>
         <category term="Writeup" scheme="https://the-m3chanic.github.io/categories/Writeup/" />
         <category term="Security" scheme="https://the-m3chanic.github.io/tags/Security/" />
+        <category term="reversing" scheme="https://the-m3chanic.github.io/tags/reversing/" />
         <category term="writeup" scheme="https://the-m3chanic.github.io/tags/writeup/" />
         <category term="CTF" scheme="https://the-m3chanic.github.io/tags/CTF/" />
         <category term="pwn" scheme="https://the-m3chanic.github.io/tags/pwn/" />
-        <category term="reversing" scheme="https://the-m3chanic.github.io/tags/reversing/" />
         <updated>2024-07-07T22:34:33.000Z</updated>
     </entry>
     <entry>
@@ -234,8 +234,8 @@ Additionally, the array that is being set is of length 256, another AES hint.&lt
 &lt;p&gt;Overall, this was an easy to medium challenge, with just some obfuscation to hide some things being generated in the binary and a vulnerable implementation of AES being implemented. I hope you guys had fun solving the challenge and learnt something new from it as well! 😃&lt;/p&gt;
 </content>
         <category term="Writeup" scheme="https://the-m3chanic.github.io/categories/Writeup/" />
-        <category term="writeup" scheme="https://the-m3chanic.github.io/tags/writeup/" />
         <category term="reversing" scheme="https://the-m3chanic.github.io/tags/reversing/" />
+        <category term="writeup" scheme="https://the-m3chanic.github.io/tags/writeup/" />
         <category term="bi0sCTF" scheme="https://the-m3chanic.github.io/tags/bi0sCTF/" />
         <category term="crypto" scheme="https://the-m3chanic.github.io/tags/crypto/" />
         <category term="AES" scheme="https://the-m3chanic.github.io/tags/AES/" />
@@ -327,10 +327,10 @@ First thing that comes to mind is z3, so let&#39;s go for that.&lt;/p&gt;
 &lt;p&gt;All in all, this was a very fun challenge for me to solve - with lots to learn. GGs to the author from IrisSec for making such a unique challenge!&lt;/p&gt;
 </content>
         <category term="Writeup" scheme="https://the-m3chanic.github.io/categories/Writeup/" />
-        <category term="reversing" scheme="https://the-m3chanic.github.io/tags/reversing/" />
         <category term="security" scheme="https://the-m3chanic.github.io/tags/security/" />
         <category term="ctf" scheme="https://the-m3chanic.github.io/tags/ctf/" />
         <category term="IrisCTF" scheme="https://the-m3chanic.github.io/tags/IrisCTF/" />
+        <category term="reversing" scheme="https://the-m3chanic.github.io/tags/reversing/" />
         <updated>2024-01-26T01:12:26.000Z</updated>
     </entry>
 </feed>

@@ -186,10 +186,10 @@ To do this, we would need to pass the canary as part of the input, and doing tha
 </content>
         <category term="Writeup" scheme="https://the-m3chanic.github.io/categories/Writeup/" />
         <category term="Security" scheme="https://the-m3chanic.github.io/tags/Security/" />
+        <category term="reversing" scheme="https://the-m3chanic.github.io/tags/reversing/" />
         <category term="writeup" scheme="https://the-m3chanic.github.io/tags/writeup/" />
         <category term="CTF" scheme="https://the-m3chanic.github.io/tags/CTF/" />
         <category term="pwn" scheme="https://the-m3chanic.github.io/tags/pwn/" />
-        <category term="reversing" scheme="https://the-m3chanic.github.io/tags/reversing/" />
         <updated>2024-07-07T22:34:33.000Z</updated>
     </entry>
     <entry>
@@ -316,8 +316,8 @@ Most likely, you&#39;ll have multiple results, but only one that corresponds to 
 &lt;p&gt;All in all, this is an interesting and novel way to hide what you&#39;re doing in your .NET binary. Very fascinating approach, and if you guys have any doubts with regards to anything I&#39;ve mentioned here - you can always reach on &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly90d2l0dGVyLmNvbS90aGVfbTNjaGFuaWNf&#34;&gt;Twitter&lt;/span&gt;. Cheers.&lt;/p&gt;
 </content>
         <category term="Technical" scheme="https://the-m3chanic.github.io/categories/Technical/" />
-        <category term="Security" scheme="https://the-m3chanic.github.io/tags/Security/" />
         <category term="R2R" scheme="https://the-m3chanic.github.io/tags/R2R/" />
+        <category term="Security" scheme="https://the-m3chanic.github.io/tags/Security/" />
         <category term="C#" scheme="https://the-m3chanic.github.io/tags/C/" />
         <category term=".NET" scheme="https://the-m3chanic.github.io/tags/NET/" />
         <updated>2024-05-08T02:39:58.000Z</updated>
@@ -489,10 +489,10 @@ First thing that comes to mind is z3, so let&#39;s go for that.&lt;/p&gt;
 &lt;p&gt;All in all, this was a very fun challenge for me to solve - with lots to learn. GGs to the author from IrisSec for making such a unique challenge!&lt;/p&gt;
 </content>
         <category term="Writeup" scheme="https://the-m3chanic.github.io/categories/Writeup/" />
-        <category term="reversing" scheme="https://the-m3chanic.github.io/tags/reversing/" />
         <category term="security" scheme="https://the-m3chanic.github.io/tags/security/" />
         <category term="ctf" scheme="https://the-m3chanic.github.io/tags/ctf/" />
         <category term="IrisCTF" scheme="https://the-m3chanic.github.io/tags/IrisCTF/" />
+        <category term="reversing" scheme="https://the-m3chanic.github.io/tags/reversing/" />
         <updated>2024-01-26T01:12:26.000Z</updated>
     </entry>
 </feed>

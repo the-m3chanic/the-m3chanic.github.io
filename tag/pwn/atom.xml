@@ -186,10 +186,10 @@ To do this, we would need to pass the canary as part of the input, and doing tha
 </content>
         <category term="Writeup" scheme="https://the-m3chanic.github.io/categories/Writeup/" />
         <category term="Security" scheme="https://the-m3chanic.github.io/tags/Security/" />
+        <category term="reversing" scheme="https://the-m3chanic.github.io/tags/reversing/" />
         <category term="writeup" scheme="https://the-m3chanic.github.io/tags/writeup/" />
         <category term="CTF" scheme="https://the-m3chanic.github.io/tags/CTF/" />
         <category term="pwn" scheme="https://the-m3chanic.github.io/tags/pwn/" />
-        <category term="reversing" scheme="https://the-m3chanic.github.io/tags/reversing/" />
         <updated>2024-07-07T22:34:33.000Z</updated>
     </entry>
 </feed>
