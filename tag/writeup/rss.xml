@@ -18,9 +18,9 @@
             <link>https://the-m3chanic.github.io/2024/07/08/Writeup-lost-canary-UIUCTF24/</link>
             <category term="Writeup" scheme="https://the-m3chanic.github.io/categories/Writeup/" />
             <category term="Security" scheme="https://the-m3chanic.github.io/tags/Security/" />
+            <category term="CTF" scheme="https://the-m3chanic.github.io/tags/CTF/" />
             <category term="Reversing" scheme="https://the-m3chanic.github.io/tags/Reversing/" />
             <category term="Writeup" scheme="https://the-m3chanic.github.io/tags/Writeup/" />
-            <category term="CTF" scheme="https://the-m3chanic.github.io/tags/CTF/" />
             <category term="Pwn" scheme="https://the-m3chanic.github.io/tags/Pwn/" />
             <pubDate>Mon, 08 Jul 2024 04:04:33 +0530</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;lost-canary&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#lost-canary&#34;&gt;#&lt;/a&gt; lost-canary&lt;/h1&gt;
@@ -200,9 +200,9 @@ To do this, we would need to pass the canary as part of the input, and doing tha
             <title>Writeup - t0y-b0x - bi0sCTF 2024</title>
             <link>https://the-m3chanic.github.io/2024/02/26/Writeup-t0y-b0x-bi0sCTF-2024/</link>
             <category term="Writeup" scheme="https://the-m3chanic.github.io/categories/Writeup/" />
+            <category term="CTF" scheme="https://the-m3chanic.github.io/tags/CTF/" />
             <category term="Reversing" scheme="https://the-m3chanic.github.io/tags/Reversing/" />
             <category term="Writeup" scheme="https://the-m3chanic.github.io/tags/Writeup/" />
-            <category term="CTF" scheme="https://the-m3chanic.github.io/tags/CTF/" />
             <category term="Crypto" scheme="https://the-m3chanic.github.io/tags/Crypto/" />
             <pubDate>Mon, 26 Feb 2024 22:39:06 +0530</pubDate>
             <description><![CDATA[ &lt;p&gt;&lt;strong&gt;tl;dr&lt;/strong&gt;&lt;/p&gt;
@@ -249,10 +249,10 @@ Additionally, the array that is being set is of length 256, another AES hint.&lt
             <link>https://the-m3chanic.github.io/2024/02/26/Writeup-beehive-bi0sCTF-2024/</link>
             <category term="Writeup" scheme="https://the-m3chanic.github.io/categories/Writeup/" />
             <category term="Security" scheme="https://the-m3chanic.github.io/tags/Security/" />
-            <category term="Reversing" scheme="https://the-m3chanic.github.io/tags/Reversing/" />
-            <category term="eBPF" scheme="https://the-m3chanic.github.io/tags/eBPF/" />
-            <category term="Writeup" scheme="https://the-m3chanic.github.io/tags/Writeup/" />
             <category term="CTF" scheme="https://the-m3chanic.github.io/tags/CTF/" />
+            <category term="Reversing" scheme="https://the-m3chanic.github.io/tags/Reversing/" />
+            <category term="Writeup" scheme="https://the-m3chanic.github.io/tags/Writeup/" />
+            <category term="eBPF" scheme="https://the-m3chanic.github.io/tags/eBPF/" />
             <pubDate>Mon, 26 Feb 2024 08:53:31 +0530</pubDate>
             <description><![CDATA[ &lt;p&gt;&lt;strong&gt;tl;dr&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;

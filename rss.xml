@@ -198,9 +198,9 @@
             <link>https://the-m3chanic.github.io/2024/07/08/Writeup-lost-canary-UIUCTF24/</link>
             <category term="Writeup" scheme="https://the-m3chanic.github.io/categories/Writeup/" />
             <category term="Security" scheme="https://the-m3chanic.github.io/tags/Security/" />
+            <category term="CTF" scheme="https://the-m3chanic.github.io/tags/CTF/" />
             <category term="Reversing" scheme="https://the-m3chanic.github.io/tags/Reversing/" />
             <category term="Writeup" scheme="https://the-m3chanic.github.io/tags/Writeup/" />
-            <category term="CTF" scheme="https://the-m3chanic.github.io/tags/CTF/" />
             <category term="Pwn" scheme="https://the-m3chanic.github.io/tags/Pwn/" />
             <pubDate>Mon, 08 Jul 2024 04:04:33 +0530</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;lost-canary&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#lost-canary&#34;&gt;#&lt;/a&gt; lost-canary&lt;/h1&gt;
@@ -445,11 +445,11 @@ First, for emulation, I went with qemu. I already had a  &lt;code&gt;qemu-system
             <title>R2R (Ready to Run) Stomping - WTF?</title>
             <link>https://the-m3chanic.github.io/2024/05/08/R2R-Ready-to-Run-Stomping-WTF/</link>
             <category term="Technical" scheme="https://the-m3chanic.github.io/categories/Technical/" />
-            <category term="R2R" scheme="https://the-m3chanic.github.io/tags/R2R/" />
             <category term="Security" scheme="https://the-m3chanic.github.io/tags/Security/" />
+            <category term="Reversing" scheme="https://the-m3chanic.github.io/tags/Reversing/" />
+            <category term="R2R" scheme="https://the-m3chanic.github.io/tags/R2R/" />
             <category term="C#" scheme="https://the-m3chanic.github.io/tags/C/" />
             <category term=".NET" scheme="https://the-m3chanic.github.io/tags/NET/" />
-            <category term="Reversing" scheme="https://the-m3chanic.github.io/tags/Reversing/" />
             <pubDate>Wed, 08 May 2024 08:09:58 +0530</pubDate>
             <description><![CDATA[ &lt;p&gt;When the topic of executing &lt;em&gt;hidden&lt;/em&gt; code comes up, one&#39;s mind often goes into techniques like process injection, C2 server shenanigans, polymorphic code, etc. But what if I tell you there is a method that can execute code that lies plain and simple in the binary, but you&#39;ll never see it?&lt;/p&gt;
 &lt;p&gt;Before we get started on the juicy stuff, I&#39;m afraid we&#39;ll need to learn some prerequisites first. If you happen to be an expert in the .NET compilation and runtime process, and also know how to read assembly, then I have some great news for you: you can skip past a bunch of stuff I&#39;m about to talk about and jump right into Reversing it (although I&#39;d appreciate you giving it a read for the 3 cans of chocolate milk that went into making this post).&lt;/p&gt;
@@ -576,9 +576,9 @@ Most likely, you&#39;ll have multiple results, but only one that corresponds to 
             <title>Writeup - t0y-b0x - bi0sCTF 2024</title>
             <link>https://the-m3chanic.github.io/2024/02/26/Writeup-t0y-b0x-bi0sCTF-2024/</link>
             <category term="Writeup" scheme="https://the-m3chanic.github.io/categories/Writeup/" />
+            <category term="CTF" scheme="https://the-m3chanic.github.io/tags/CTF/" />
             <category term="Reversing" scheme="https://the-m3chanic.github.io/tags/Reversing/" />
             <category term="Writeup" scheme="https://the-m3chanic.github.io/tags/Writeup/" />
-            <category term="CTF" scheme="https://the-m3chanic.github.io/tags/CTF/" />
             <category term="Crypto" scheme="https://the-m3chanic.github.io/tags/Crypto/" />
             <pubDate>Mon, 26 Feb 2024 22:39:06 +0530</pubDate>
             <description><![CDATA[ &lt;p&gt;&lt;strong&gt;tl;dr&lt;/strong&gt;&lt;/p&gt;
@@ -625,10 +625,10 @@ Additionally, the array that is being set is of length 256, another AES hint.&lt
             <link>https://the-m3chanic.github.io/2024/02/26/Writeup-beehive-bi0sCTF-2024/</link>
             <category term="Writeup" scheme="https://the-m3chanic.github.io/categories/Writeup/" />
             <category term="Security" scheme="https://the-m3chanic.github.io/tags/Security/" />
-            <category term="Reversing" scheme="https://the-m3chanic.github.io/tags/Reversing/" />
-            <category term="eBPF" scheme="https://the-m3chanic.github.io/tags/eBPF/" />
-            <category term="Writeup" scheme="https://the-m3chanic.github.io/tags/Writeup/" />
             <category term="CTF" scheme="https://the-m3chanic.github.io/tags/CTF/" />
+            <category term="Reversing" scheme="https://the-m3chanic.github.io/tags/Reversing/" />
+            <category term="Writeup" scheme="https://the-m3chanic.github.io/tags/Writeup/" />
+            <category term="eBPF" scheme="https://the-m3chanic.github.io/tags/eBPF/" />
             <pubDate>Mon, 26 Feb 2024 08:53:31 +0530</pubDate>
             <description><![CDATA[ &lt;p&gt;&lt;strong&gt;tl;dr&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -708,9 +708,9 @@ Let&#39;s look at this logically - we know the binary has a print statement some
             <link>https://the-m3chanic.github.io/2024/01/26/Writeup-Secure-Computing-IRIS-CTF-2024/</link>
             <category term="Writeup" scheme="https://the-m3chanic.github.io/categories/Writeup/" />
             <category term="Security" scheme="https://the-m3chanic.github.io/tags/Security/" />
-            <category term="Reversing" scheme="https://the-m3chanic.github.io/tags/Reversing/" />
             <category term="CTF" scheme="https://the-m3chanic.github.io/tags/CTF/" />
             <category term="IrisCTF" scheme="https://the-m3chanic.github.io/tags/IrisCTF/" />
+            <category term="Reversing" scheme="https://the-m3chanic.github.io/tags/Reversing/" />
             <pubDate>Fri, 26 Jan 2024 06:42:26 +0530</pubDate>
             <description><![CDATA[ &lt;p&gt;Note: My team and I didn&#39;t end up solving this during the CTF, we got very close though. This writeup goes through the steps I took to finish solving the challenge after the CTF ended. Hopefully you learn a thing or two 😃&lt;/p&gt;
 &lt;p&gt;&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;Your own secure computer can check the flag! Might have forgotten to add the logic to the program, but I think if you guess enough, you can figure it out. Not sure&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
@@ -792,210 +792,6 @@ First thing that comes to mind is z3, so let&#39;s go for that.&lt;/p&gt;
 &lt;p&gt;Followed by a script to split these files and parse them, then convert them to C files in the format the Klee expects&lt;br /&gt;
 &lt;figure class=&#34;highlight py&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;21&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;22&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;23&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;24&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;25&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;26&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;27&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;28&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;29&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;30&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;31&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;32&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;33&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;34&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;35&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;36&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;37&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;38&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;39&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;40&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;41&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;42&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;43&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;44&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;45&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;46&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;47&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;48&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;49&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;50&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;51&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;52&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;53&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;54&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;55&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;56&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;57&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;58&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;59&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;60&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;61&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;62&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;63&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;64&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;65&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;66&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;67&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;68&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;69&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;70&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;71&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;72&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;73&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;74&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;75&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;76&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;77&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;78&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;79&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;80&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;81&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;82&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;83&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;84&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;85&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;86&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;87&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;88&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;89&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;90&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;91&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;92&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;93&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;94&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;95&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;96&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;97&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;98&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;99&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;100&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;101&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;102&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;103&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;104&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;105&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;106&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;# split the large output into 8 separate files properly &lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;def&lt;/span&gt; &lt;span class=&#34;title function_&#34;&gt;split_files&lt;/span&gt;(&lt;span class=&#34;params&#34;&gt;filename&lt;/span&gt;):&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;with&lt;/span&gt; &lt;span class=&#34;built_in&#34;&gt;open&lt;/span&gt;(filename, &lt;span class=&#34;string&#34;&gt;&amp;quot;r&amp;quot;&lt;/span&gt;) &lt;span class=&#34;keyword&#34;&gt;as&lt;/span&gt; f:&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        disassembly = f.readlines()&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    LINES_PER_FILE=&lt;span class=&#34;number&#34;&gt;3797&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    i = &lt;span class=&#34;number&#34;&gt;0&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;for&lt;/span&gt; line &lt;span class=&#34;keyword&#34;&gt;in&lt;/span&gt; disassembly:&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;keyword&#34;&gt;if&lt;/span&gt; (i % LINES_PER_FILE == &lt;span class=&#34;number&#34;&gt;0&lt;/span&gt;):&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            &lt;span class=&#34;comment&#34;&gt;# open the next file to disassemble &lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            file_number = i // LINES_PER_FILE&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            &lt;span class=&#34;keyword&#34;&gt;if&lt;/span&gt; (i != &lt;span class=&#34;number&#34;&gt;0&lt;/span&gt;):&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;                f.close()&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;                f = &lt;span class=&#34;built_in&#34;&gt;open&lt;/span&gt;(&lt;span class=&#34;string&#34;&gt;f&amp;quot;disassembly_&lt;span class=&#34;subst&#34;&gt;&amp;#123;file_number&amp;#125;&lt;/span&gt;.txt&amp;quot;&lt;/span&gt;, &lt;span class=&#34;string&#34;&gt;&amp;quot;w&amp;quot;&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            &lt;span class=&#34;keyword&#34;&gt;else&lt;/span&gt;:&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;                f = &lt;span class=&#34;built_in&#34;&gt;open&lt;/span&gt;(&lt;span class=&#34;string&#34;&gt;f&amp;quot;disassembly_&lt;span class=&#34;subst&#34;&gt;&amp;#123;file_number&amp;#125;&lt;/span&gt;.txt&amp;quot;&lt;/span&gt;, &lt;span class=&#34;string&#34;&gt;&amp;quot;w&amp;quot;&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        f.write(&lt;span class=&#34;string&#34;&gt;&amp;#x27; &amp;#x27;&lt;/span&gt;.join(line.split()[&lt;span class=&#34;number&#34;&gt;5&lt;/span&gt;:]) + &lt;span class=&#34;string&#34;&gt;&amp;#x27;\n&amp;#x27;&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        i += &lt;span class=&#34;number&#34;&gt;1&lt;/span&gt;  &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;program_head = &lt;span class=&#34;string&#34;&gt;&amp;quot;&amp;quot;&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;string&#34;&gt;#include &amp;lt;stdint.h&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;string&#34;&gt;#include &amp;lt;stdbool.h&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;string&#34;&gt;#include &amp;lt;stdlib.h&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;string&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;string&#34;&gt;#include &amp;lt;assert.h&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;string&#34;&gt;#include &amp;quot;klee/klee.h&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;string&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;string&#34;&gt;#define ERRNO(x) (x)&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;string&#34;&gt;#define KILL 2&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;string&#34;&gt;#define ALLOW 1&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;string&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;string&#34;&gt;#define EM_X86_64 62&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;string&#34;&gt;#define __AUDIT_ARCH_64BIT 0x80000000&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;string&#34;&gt;#define __AUDIT_ARCH_LE 0x40000000&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;string&#34;&gt;#define AUDIT_ARCH_X86_64 (EM_X86_64 | __AUDIT_ARCH_64BIT | __AUDIT_ARCH_LE)&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;string&#34;&gt;&amp;quot;&amp;quot;&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;prog_main = &lt;span class=&#34;string&#34;&gt;&amp;quot;&amp;quot;&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;string&#34;&gt;int main(int argc, char * argv[]) &amp;#123;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;string&#34;&gt;    uint64_t args[6];&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;string&#34;&gt;    klee_make_symbolic(args, sizeof(args), &amp;quot;args&amp;quot;);&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;string&#34;&gt;    uint8_t result = filter(args);&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;string&#34;&gt;    // Did the filter return zero?&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;string&#34;&gt;    klee_assume(result == 0);&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;string&#34;&gt;    // If we reach this point, we found a solution&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;string&#34;&gt;    klee_assert(0);&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;string&#34;&gt;    return 0;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;string&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;string&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;string&#34;&gt;&amp;quot;&amp;quot;&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;function_init = &lt;span class=&#34;string&#34;&gt;&amp;quot;&amp;quot;&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;string&#34;&gt;uint8_t filter(uint64_t args[6]) &amp;#123;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;string&#34;&gt;    // initialize memory and registers&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;string&#34;&gt;    uint32_t A = 0;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;string&#34;&gt;    uint32_t X = 0;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;string&#34;&gt;    // fix architecture and syscall number&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;string&#34;&gt;    uint32_t sys_number = 0x1337;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;string&#34;&gt;    uint32_t arch = AUDIT_ARCH_X86_64;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;string&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;string&#34;&gt;    uint32_t mem[16] = &amp;#123;0&amp;#125;;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;string&#34;&gt;    [FUNCTION BODY]&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;string&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;string&#34;&gt;&amp;quot;&amp;quot;&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;# return the line number that control flow will go to, given a line&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;def&lt;/span&gt; &lt;span class=&#34;title function_&#34;&gt;goto_target&lt;/span&gt;(&lt;span class=&#34;params&#34;&gt;line: &lt;span class=&#34;built_in&#34;&gt;str&lt;/span&gt;&lt;/span&gt;):&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    line = line.split()&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;return&lt;/span&gt; line[&lt;span class=&#34;number&#34;&gt;5&lt;/span&gt;]&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;# generate function body &lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;# need to keep track of line number, starting from 1, to insert goto_label into line&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;def&lt;/span&gt; &lt;span class=&#34;title function_&#34;&gt;parse_disassembly&lt;/span&gt;(&lt;span class=&#34;params&#34;&gt;disassembly&lt;/span&gt;):    &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    c_code = &lt;span class=&#34;string&#34;&gt;&amp;quot;&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;for&lt;/span&gt; line_number, line &lt;span class=&#34;keyword&#34;&gt;in&lt;/span&gt; &lt;span class=&#34;built_in&#34;&gt;enumerate&lt;/span&gt;(disassembly):&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        line_number += &lt;span class=&#34;number&#34;&gt;1&lt;/span&gt;  &lt;span class=&#34;comment&#34;&gt;# line number is normally zero-indexed&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;comment&#34;&gt;# if line has a goto statement, most important &lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;keyword&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;string&#34;&gt;&amp;quot;goto&amp;quot;&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;in&lt;/span&gt; line:&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            &lt;span class=&#34;comment&#34;&gt;# store line number and insert &amp;quot;LABEL_&amp;quot; + line_number + &amp;quot;_&amp;quot; in next line &lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            goto_line = goto_target(line)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            &lt;span class=&#34;comment&#34;&gt;# insert label&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            c_code += line.replace(&lt;span class=&#34;built_in&#34;&gt;str&lt;/span&gt;(goto_line), &lt;span class=&#34;string&#34;&gt;f&amp;quot;LABEL_&lt;span class=&#34;subst&#34;&gt;&amp;#123;goto_line&amp;#125;&lt;/span&gt;&amp;quot;&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            c_code += &lt;span class=&#34;string&#34;&gt;&amp;quot;LABEL_&amp;quot;&lt;/span&gt; + goto_line + &lt;span class=&#34;string&#34;&gt;&amp;quot;: &amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;keyword&#34;&gt;else&lt;/span&gt;:&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            c_code += line &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;return&lt;/span&gt; c_code &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;def&lt;/span&gt; &lt;span class=&#34;title function_&#34;&gt;main&lt;/span&gt;():&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    split_files(&lt;span class=&#34;string&#34;&gt;&amp;quot;full_disasm.txt&amp;quot;&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;comment&#34;&gt;# iterate through all the disassembly files to parse out &lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;for&lt;/span&gt; file_number &lt;span class=&#34;keyword&#34;&gt;in&lt;/span&gt; &lt;span class=&#34;built_in&#34;&gt;range&lt;/span&gt;(&lt;span class=&#34;number&#34;&gt;0&lt;/span&gt;, &lt;span class=&#34;number&#34;&gt;8&lt;/span&gt;):&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;keyword&#34;&gt;with&lt;/span&gt; &lt;span class=&#34;built_in&#34;&gt;open&lt;/span&gt;(&lt;span class=&#34;string&#34;&gt;f&amp;quot;disassembly_&lt;span class=&#34;subst&#34;&gt;&amp;#123;file_number&amp;#125;&lt;/span&gt;.txt&amp;quot;&lt;/span&gt;, &lt;span class=&#34;string&#34;&gt;&amp;quot;r&amp;quot;&lt;/span&gt;) &lt;span class=&#34;keyword&#34;&gt;as&lt;/span&gt; f:&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            disassembly = f.readlines()&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        c_code = parse_disassembly(disassembly)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &lt;span class=&#34;keyword&#34;&gt;with&lt;/span&gt; &lt;span class=&#34;built_in&#34;&gt;open&lt;/span&gt;(&lt;span class=&#34;string&#34;&gt;f&amp;quot;filter_&lt;span class=&#34;subst&#34;&gt;&amp;#123;file_number&amp;#125;&lt;/span&gt;.c&amp;quot;&lt;/span&gt;, &lt;span class=&#34;string&#34;&gt;&amp;quot;w&amp;quot;&lt;/span&gt;) &lt;span class=&#34;keyword&#34;&gt;as&lt;/span&gt; f:&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            program = program_head + &lt;span class=&#34;string&#34;&gt;&amp;quot;\n\n&amp;quot;&lt;/span&gt; + function_init.replace(&lt;span class=&#34;string&#34;&gt;&amp;quot;[FUNCTION BODY]&amp;quot;&lt;/span&gt;, c_code) + prog_main &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            f.write(program)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;if&lt;/span&gt; __name__ == &lt;span class=&#34;string&#34;&gt;&amp;quot;__main__&amp;quot;&lt;/span&gt;:&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    main()&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;All in all, this was a very fun challenge for me to solve - with lots to learn. GGs to the author from IrisSec for making such a unique challenge!&lt;/p&gt;
- ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">https://the-m3chanic.github.io/1970/01/01/gsoc-final-report-2/</guid>
-            <title></title>
-            <link>https://the-m3chanic.github.io/1970/01/01/gsoc-final-report-2/</link>
-            <pubDate>Thu, 01 Jan 1970 05:30:00 +0530</pubDate>
-            <description><![CDATA[ &lt;p&gt;&lt;img data-src=&#34;image.png&#34; alt=&#34;gsoc-logo&#34; /&gt;&lt;/p&gt;
-&lt;h1 id=&#34;gsoc-24-final-project-report&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#gsoc-24-final-project-report&#34;&gt;#&lt;/a&gt; GSoC &#39;24 - Final Project Report&lt;/h1&gt;
-&lt;p&gt;The following report summarises the work I have done during Google Summer of&lt;br /&gt;
-Code 2024, along with the results, scope for improvements and future work. This&lt;br /&gt;
-also serves as the final project report with all the contributions.&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;&lt;strong&gt;Basic Info&lt;/strong&gt;&lt;/th&gt;
-&lt;th&gt;&lt;strong&gt;Details&lt;/strong&gt;&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Name&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;Suraj Kumar&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Email&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;bWFpbHRvOmhpc3VyYWprdW1hcjIwMDRAZ21haWwuY29t&#34;&gt;hisurajkumar2004@gmail.com&lt;/span&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Gitlab&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRsYWIucnRlbXMub3JnL3RoZS5tM2NoYW5pYw==&#34;&gt;the.m3chanic&lt;/span&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;LinkedIn&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cubGlua2VkaW4uY29tL2luL3RoZS1tM2NoYW5pYy8=&#34;&gt;the.m3chanic&lt;/span&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;University&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYW1yaXRhLmVkdS9jYW1wdXMvYW1yaXRhcHVyaS8=&#34;&gt;Amrita Vishwa Vidyapeetham, Amritapuri&lt;/span&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Organization&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cucnRlbXMub3Jn&#34;&gt;RTEMS Project&lt;/span&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Project Title&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;Add Python initializer to GDB in RTEMS&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Project Link&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRsYWIucnRlbXMub3JnL3J0ZW1zLw==&#34;&gt;RTEMS Project Repository&lt;/span&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Project Tracker&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRsYWIucnRlbXMub3JnL2dyb3Vwcy9ydGVtcy8tL2VwaWNzLzE=&#34;&gt;RTEMS Project Tracker&lt;/span&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h2 id=&#34;background&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#background&#34;&gt;#&lt;/a&gt; Background&lt;/h2&gt;
-&lt;p&gt;My first contribution to Open Source software was pretty simple - it was a&lt;br /&gt;
-documentation fix for a tool I was using. I had some issues building it and&lt;br /&gt;
-figured that some of the steps were wrong, so I made a PR to fix it. It hit me a&lt;br /&gt;
-while later that I was probably helping a lot of people out by not letting them&lt;br /&gt;
-run into the same issue as me, and that felt nice.&lt;/p&gt;
-&lt;p&gt;I learned about RTEMS when looking for organisations that participated in GSoC&lt;br /&gt;
-&#39;24. I found the project very interesting and thought it would be cool to&lt;br /&gt;
-contribute something to it. I received my GSoC acceptance mail on May 2nd, and I&lt;br /&gt;
-knew from that moment on that this was going to be a unique Summer.&lt;/p&gt;
-&lt;h2 id=&#34;about-the-project&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#about-the-project&#34;&gt;#&lt;/a&gt; About the Project&lt;/h2&gt;
-&lt;p&gt;&lt;img data-src=&#34;image_2024-08-19_011553088.png&#34; alt=&#34;rtems logo&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;RTEMS (Real-Time Executive for Multiprocessor Systems) is an open-source real-time operating system (RTOS) designed for embedded systems requiring high reliability and deterministic behavior. The project involved modifying GDB to enhance its debugging capabilities within RTEMS.&lt;/p&gt;
-&lt;h2 id=&#34;problem-statement&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#problem-statement&#34;&gt;#&lt;/a&gt; Problem Statement&lt;/h2&gt;
-&lt;p&gt;GDB provides support built in to automatically load Python. This is for dynamic&lt;br /&gt;
-executables only. The way this works is: Whenever a specific library is loaded&lt;br /&gt;
-by the object file currently loaded in GDB, the linker will trigger GDB to&lt;br /&gt;
-correspondingly load the pretty-printing scripts for that library.&lt;/p&gt;
-&lt;p&gt;However, RTEMS is essentially fully statically linked, and the same cannot be said for statically linked executables. There is no&lt;br /&gt;
-linker in play to let GDB know when a library is loaded, and GDB does not&lt;br /&gt;
-automatically have Python loaded hence. This causes a problem because now there&lt;br /&gt;
-is an abundance of features being missed out on due to the inability to load&lt;br /&gt;
-Python automatically by GDB.&lt;/p&gt;
-&lt;h2 id=&#34;project-goals&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#project-goals&#34;&gt;#&lt;/a&gt; Project Goals&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Integrate a Python initializer into GDB for RTEMS to facilitate enhanced debugging.&lt;br /&gt;
-modifications to its build&lt;/li&gt;
-&lt;li&gt;Enable GDB to automatically load pretty-printing scripts for RTEMS structures and libstdcxx classes.&lt;br /&gt;
-structures&lt;/li&gt;
-&lt;li&gt;Seamlessly integrate these changes into the RTEMS toolchain, reducing the need for user intervention.&lt;br /&gt;
-involvement from the user&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;approach&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#approach&#34;&gt;#&lt;/a&gt; Approach&lt;/h2&gt;
-&lt;p&gt;I implemented the addition of a custom section:  &lt;code&gt;.debug_gdb_scripts&lt;/code&gt;  for RTEMS executables,&lt;br /&gt;
-allowing GDB to execute Python scripts upon program load. This approach was&lt;br /&gt;
-tailored specifically for RTEMS to overcome limitations with static linking.&lt;/p&gt;
-&lt;p&gt;Here is a flow chart highlighting the work flow underwent for the entire&lt;br /&gt;
-project:&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-3.png&#34; alt=&#34;project workflow chart&#34; /&gt;&lt;/p&gt;
-&lt;h2 id=&#34;work-completed&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#work-completed&#34;&gt;#&lt;/a&gt; Work Completed&lt;/h2&gt;
-&lt;h3 id=&#34;python-initializer-for-gdb&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#python-initializer-for-gdb&#34;&gt;#&lt;/a&gt; Python Initializer for GDB&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Implemented a custom section  &lt;code&gt;.debug_gdb_scripts&lt;/code&gt;  in RTEMS executables for GDB to load Python scripts automatically.&lt;/li&gt;
-&lt;li&gt;Developed and tested integration with the RTEMS build system to ensure Python scripts are executed upon loading an application.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;pretty-printers-integration&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#pretty-printers-integration&#34;&gt;#&lt;/a&gt; Pretty-Printers Integration&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Added support for pretty-printers for RTEMS-specific data structures.&lt;/li&gt;
-&lt;li&gt;Created a script  &lt;code&gt;pprinter.py&lt;/code&gt;  to enhance GDB&#39;s ability to display RTEMS structures in a user-friendly format.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;integration-with-rtems-toolchain&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#integration-with-rtems-toolchain&#34;&gt;#&lt;/a&gt; Integration with RTEMS Toolchain&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Modified the RTEMS Source Builder (RSB) to include the necessary changes for building  &lt;code&gt;stdcxx.py&lt;/code&gt;  with the latest GCC.&lt;/li&gt;
-&lt;li&gt;Updated documentation to reflect new features and usage instructions.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;current-state&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#current-state&#34;&gt;#&lt;/a&gt; Current State&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;All major features have been implemented and tested.&lt;/li&gt;
-&lt;li&gt;Python initialization and pretty-printer support have been integrated into the RTEMS build system.&lt;/li&gt;
-&lt;li&gt;Pretty-printers for some basic RTEMS structures have been written and tested.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;communication-and-work-management&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#communication-and-work-management&#34;&gt;#&lt;/a&gt; Communication and Work Management&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Discord was the primary platform of communication between my mentors and I,&lt;br /&gt;
-along with other members of the community&lt;/li&gt;
-&lt;li&gt;Weekly meetings to discuss Status Updates and keep everyone up to date with&lt;br /&gt;
-the project&lt;/li&gt;
-&lt;li&gt;The RTEMS Gitlab instance was used to coordinate issues, tickets, and Merge&lt;br /&gt;
-Request discussions, along with engineering discussions on Discord&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;merge-requests&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#merge-requests&#34;&gt;#&lt;/a&gt; Merge Requests&lt;/h2&gt;
-&lt;p&gt;The following Merge Requests were made by me and accepted by my mentors during&lt;br /&gt;
-the course of this project&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://gitlab.rtems.org/rtems/rtos/rtems/-/merge_requests/98&#34;&gt;Merge Request to add the section to all ELFs, and update the linker scripts for all&lt;br /&gt;
-Architectures and&lt;br /&gt;
-BSPs&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://gitlab.rtems.org/rtems/tools/rtems-source-builder/-/merge_requests/35&#34;&gt;Merge Request to modify RSB with changes to build&lt;br /&gt;
-stdcxx.py&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://gitlab.rtems.org/rtems/tools/rtems-tools/-/merge_requests/26&#34;&gt;Merge Request to add pprinter.py to RTEMS tools, along with RTEMS pretty-printer&lt;br /&gt;
-support&lt;/a&gt;&lt;br /&gt;
-[NOT YET MERGED]&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://gitlab.rtems.org/rtems/tools/rtems-source-builder/-/merge_requests/48&#34;&gt;Merge Request to fix modifications in&lt;br /&gt;
-RSB&lt;/a&gt;&lt;br /&gt;
-[NOT YET MERGED]&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://gitlab.rtems.org/rtems/docs/rtems-docs/-/merge_requests/43&#34;&gt;Merge Request to update documentation with&lt;br /&gt;
-changes&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;whats-left-to-do&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#whats-left-to-do&#34;&gt;#&lt;/a&gt; What&#39;s Left to Do&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Address any feedback received from the RTEMS community regarding the merge requests.&lt;/li&gt;
-&lt;li&gt;Explore additional pretty-printers for other RTEMS structures as required by&lt;br /&gt;
-the community.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;challenges-and-learnings&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#challenges-and-learnings&#34;&gt;#&lt;/a&gt; Challenges and Learnings&lt;/h2&gt;
-&lt;h3 id=&#34;challenges&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#challenges&#34;&gt;#&lt;/a&gt; Challenges&lt;/h3&gt;
-&lt;h4 id=&#34;integrating-python-and-gdb-with-static-linking-in-rtems&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#integrating-python-and-gdb-with-static-linking-in-rtems&#34;&gt;#&lt;/a&gt; Integrating Python and GDB with Static Linking in RTEMS&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;RTEMS uses static linking, which complicates GDB&#39;s ability to automatically&lt;br /&gt;
-load Python scripts, a feature that works for dynamically linked executables.&lt;br /&gt;
-This required developing a custom solution to ensure Python scripts could be&lt;br /&gt;
-executed within the RTEMS environment&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;developing-a-custom-solution-for-script-loading&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#developing-a-custom-solution-for-script-loading&#34;&gt;#&lt;/a&gt; Developing a Custom Solution for Script Loading&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;The conventional methods for loading Python scripts in GDB did not apply to&lt;br /&gt;
-RTEMS. I had to devise a new method to introduce a  &lt;code&gt;.debug_gdb_scripts&lt;/code&gt;  section&lt;br /&gt;
-in RTEMS executables&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;learnings&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#learnings&#34;&gt;#&lt;/a&gt; Learnings&lt;/h3&gt;
-&lt;h4 id=&#34;adaptability-and-problem-solving&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#adaptability-and-problem-solving&#34;&gt;#&lt;/a&gt; Adaptability and Problem-Solving&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;I learned to adapt to unexpected challenges, such as implementing a novel&lt;br /&gt;
-solution for integrating Python into GDB for RTEMS. This required creativity&lt;br /&gt;
-and persistence, especially when initial approaches did not work.&lt;/li&gt;
-&lt;li&gt;Developed a stronger ability to think outside the box and approach problems&lt;br /&gt;
-from different angles&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;effective-communication&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#effective-communication&#34;&gt;#&lt;/a&gt; Effective Communication&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;Regular communication with mentors and team members was crucial. Coordinating&lt;br /&gt;
-through platforms like Discord and GitLab helped me understand the importance&lt;br /&gt;
-of clear, consistent updates and feedback&lt;/li&gt;
-&lt;li&gt;Enhanced skills in articulating ideas and progress effectively, which is vital&lt;br /&gt;
-for collaborative work&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;time-management&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#time-management&#34;&gt;#&lt;/a&gt; Time Management&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;Balancing the demands of GSoC with other commitments required careful planning&lt;br /&gt;
-and prioritization. Managing a project with defined milestones and deadlines&lt;br /&gt;
-improved my time management skills&lt;/li&gt;
-&lt;li&gt;Improved ability to set realistic goals, manage deadlines, and handle multiple&lt;br /&gt;
-tasks efficiently&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;project-ownership-and-responsibility&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#project-ownership-and-responsibility&#34;&gt;#&lt;/a&gt; Project Ownership and Responsibility&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;Taking ownership of the project from inception to completion underscored the&lt;br /&gt;
-importance of responsibility. Ensuring that my contributions&lt;br /&gt;
-were valuable and well-documented was a crucial aspect of this&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;feedback-and-iteration&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#feedback-and-iteration&#34;&gt;#&lt;/a&gt; Feedback and Iteration&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;Receiving and acting on feedback was essential for refining my work. Iterative&lt;br /&gt;
-improvement based on input from my mentors helped me produce better&lt;br /&gt;
-results&lt;/li&gt;
-&lt;/ul&gt;
  ]]></description>
         </item>
     </channel>
