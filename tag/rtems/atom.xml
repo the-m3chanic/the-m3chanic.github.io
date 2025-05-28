@@ -190,9 +190,9 @@
         <updated>2024-08-25T11:41:29.000Z</updated>
     </entry>
     <entry>
-        <id>https://the-m3chanic.github.io/2024/06/07/GSoC-with-RTEMS-1/</id>
+        <id>https://the-m3chanic.github.io/2024/06/06/GSoC-with-RTEMS-1/</id>
         <title>GSoC with RTEMS! - 1/n</title>
-        <link rel="alternate" href="https://the-m3chanic.github.io/2024/06/07/GSoC-with-RTEMS-1/"/>
+        <link rel="alternate" href="https://the-m3chanic.github.io/2024/06/06/GSoC-with-RTEMS-1/"/>
         <content type="html">&lt;p&gt;Extending the features of a debugger, especially GDB, sounded like a fun and interesting project at first glance. I already have quite a bit of experience working with GDB, and use it almost daily while Reverse Engineering or during CTFs.&lt;br /&gt;
 For those of you that are not familiar, CTF stands for &amp;quot;Capture the Flag&amp;quot;. It is a competition wherein the hosting team creates and puts out challenges/services that are intentionally vulnerable - usually in a way that is specific to a single field of Cyber Security - and the point of the challenge is to figure out what the vulnerability is and use it to get a text string from it called a &amp;quot;flag&amp;quot;. Capture more flags, gain more points. I play CTFs with &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9iaTBzLmlu&#34;&gt;team bi0s&lt;/span&gt;.&lt;/p&gt;
 &lt;p&gt;GDB has an awesome Python API that it utilizes to do things it cannot do straight out the box, and one such thing is pretty-printing.&lt;/p&gt;

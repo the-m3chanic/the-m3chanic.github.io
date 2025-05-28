@@ -10,9 +10,9 @@
     </author>
     <updated>2024-07-07T22:34:33.000Z</updated>
     <entry>
-        <id>https://the-m3chanic.github.io/2024/07/08/Writeup-lost-canary-UIUCTF24/</id>
+        <id>https://the-m3chanic.github.io/2024/07/07/Writeup-lost-canary-UIUCTF24/</id>
         <title>Writeup - lost canary - UIUCTF24</title>
-        <link rel="alternate" href="https://the-m3chanic.github.io/2024/07/08/Writeup-lost-canary-UIUCTF24/"/>
+        <link rel="alternate" href="https://the-m3chanic.github.io/2024/07/07/Writeup-lost-canary-UIUCTF24/"/>
         <content type="html">&lt;h1 id=&#34;lost-canary&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#lost-canary&#34;&gt;#&lt;/a&gt; lost-canary&lt;/h1&gt;
 &lt;h4 id=&#34;author-spicypete&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#author-spicypete&#34;&gt;#&lt;/a&gt; Author: spicypete&lt;/h4&gt;
 &lt;p&gt;&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;Damn, I lost my canary at one of the train stations. Can you help me find it?&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;ncat --ssl lost-canary.chal.uiuc.tf 1337&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
@@ -186,8 +186,8 @@ To do this, we would need to pass the canary as part of the input, and doing tha
 </content>
         <category term="Writeup" scheme="https://the-m3chanic.github.io/categories/Writeup/" />
         <category term="Security" scheme="https://the-m3chanic.github.io/tags/Security/" />
-        <category term="CTF" scheme="https://the-m3chanic.github.io/tags/CTF/" />
         <category term="Reversing" scheme="https://the-m3chanic.github.io/tags/Reversing/" />
+        <category term="CTF" scheme="https://the-m3chanic.github.io/tags/CTF/" />
         <category term="Writeup" scheme="https://the-m3chanic.github.io/tags/Writeup/" />
         <category term="Pwn" scheme="https://the-m3chanic.github.io/tags/Pwn/" />
         <updated>2024-07-07T22:34:33.000Z</updated>
@@ -234,8 +234,8 @@ Additionally, the array that is being set is of length 256, another AES hint.&lt
 &lt;p&gt;Overall, this was an easy to medium challenge, with just some obfuscation to hide some things being generated in the binary and a vulnerable implementation of AES being implemented. I hope you guys had fun solving the challenge and learnt something new from it as well! 😃&lt;/p&gt;
 </content>
         <category term="Writeup" scheme="https://the-m3chanic.github.io/categories/Writeup/" />
-        <category term="CTF" scheme="https://the-m3chanic.github.io/tags/CTF/" />
         <category term="Reversing" scheme="https://the-m3chanic.github.io/tags/Reversing/" />
+        <category term="CTF" scheme="https://the-m3chanic.github.io/tags/CTF/" />
         <category term="Writeup" scheme="https://the-m3chanic.github.io/tags/Writeup/" />
         <category term="Crypto" scheme="https://the-m3chanic.github.io/tags/Crypto/" />
         <updated>2024-02-26T17:09:06.000Z</updated>
@@ -317,10 +317,10 @@ Let&#39;s look at this logically - we know the binary has a print statement some
 </content>
         <category term="Writeup" scheme="https://the-m3chanic.github.io/categories/Writeup/" />
         <category term="Security" scheme="https://the-m3chanic.github.io/tags/Security/" />
-        <category term="CTF" scheme="https://the-m3chanic.github.io/tags/CTF/" />
         <category term="Reversing" scheme="https://the-m3chanic.github.io/tags/Reversing/" />
-        <category term="Writeup" scheme="https://the-m3chanic.github.io/tags/Writeup/" />
+        <category term="CTF" scheme="https://the-m3chanic.github.io/tags/CTF/" />
         <category term="eBPF" scheme="https://the-m3chanic.github.io/tags/eBPF/" />
+        <category term="Writeup" scheme="https://the-m3chanic.github.io/tags/Writeup/" />
         <updated>2024-02-26T03:23:31.000Z</updated>
     </entry>
 </feed>

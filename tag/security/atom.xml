@@ -10,9 +10,9 @@
     </author>
     <updated>2024-07-07T22:34:33.000Z</updated>
     <entry>
-        <id>https://the-m3chanic.github.io/2024/07/08/Writeup-lost-canary-UIUCTF24/</id>
+        <id>https://the-m3chanic.github.io/2024/07/07/Writeup-lost-canary-UIUCTF24/</id>
         <title>Writeup - lost canary - UIUCTF24</title>
-        <link rel="alternate" href="https://the-m3chanic.github.io/2024/07/08/Writeup-lost-canary-UIUCTF24/"/>
+        <link rel="alternate" href="https://the-m3chanic.github.io/2024/07/07/Writeup-lost-canary-UIUCTF24/"/>
         <content type="html">&lt;h1 id=&#34;lost-canary&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#lost-canary&#34;&gt;#&lt;/a&gt; lost-canary&lt;/h1&gt;
 &lt;h4 id=&#34;author-spicypete&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#author-spicypete&#34;&gt;#&lt;/a&gt; Author: spicypete&lt;/h4&gt;
 &lt;p&gt;&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;Damn, I lost my canary at one of the train stations. Can you help me find it?&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;ncat --ssl lost-canary.chal.uiuc.tf 1337&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
@@ -186,8 +186,8 @@ To do this, we would need to pass the canary as part of the input, and doing tha
 </content>
         <category term="Writeup" scheme="https://the-m3chanic.github.io/categories/Writeup/" />
         <category term="Security" scheme="https://the-m3chanic.github.io/tags/Security/" />
-        <category term="CTF" scheme="https://the-m3chanic.github.io/tags/CTF/" />
         <category term="Reversing" scheme="https://the-m3chanic.github.io/tags/Reversing/" />
+        <category term="CTF" scheme="https://the-m3chanic.github.io/tags/CTF/" />
         <category term="Writeup" scheme="https://the-m3chanic.github.io/tags/Writeup/" />
         <category term="Pwn" scheme="https://the-m3chanic.github.io/tags/Pwn/" />
         <updated>2024-07-07T22:34:33.000Z</updated>
@@ -316,11 +316,11 @@ Most likely, you&#39;ll have multiple results, but only one that corresponds to 
 &lt;p&gt;All in all, this is an interesting and novel way to hide what you&#39;re doing in your .NET binary. Very fascinating approach, and if you guys have any doubts with regards to anything I&#39;ve mentioned here - you can always reach on &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly90d2l0dGVyLmNvbS90aGVfbTNjaGFuaWNf&#34;&gt;Twitter&lt;/span&gt;. Cheers.&lt;/p&gt;
 </content>
         <category term="Technical" scheme="https://the-m3chanic.github.io/categories/Technical/" />
-        <category term="Security" scheme="https://the-m3chanic.github.io/tags/Security/" />
-        <category term="Reversing" scheme="https://the-m3chanic.github.io/tags/Reversing/" />
         <category term="R2R" scheme="https://the-m3chanic.github.io/tags/R2R/" />
+        <category term="Security" scheme="https://the-m3chanic.github.io/tags/Security/" />
         <category term="C#" scheme="https://the-m3chanic.github.io/tags/C/" />
         <category term=".NET" scheme="https://the-m3chanic.github.io/tags/NET/" />
+        <category term="Reversing" scheme="https://the-m3chanic.github.io/tags/Reversing/" />
         <updated>2024-05-08T02:39:58.000Z</updated>
     </entry>
     <entry>
@@ -400,10 +400,10 @@ Let&#39;s look at this logically - we know the binary has a print statement some
 </content>
         <category term="Writeup" scheme="https://the-m3chanic.github.io/categories/Writeup/" />
         <category term="Security" scheme="https://the-m3chanic.github.io/tags/Security/" />
-        <category term="CTF" scheme="https://the-m3chanic.github.io/tags/CTF/" />
         <category term="Reversing" scheme="https://the-m3chanic.github.io/tags/Reversing/" />
-        <category term="Writeup" scheme="https://the-m3chanic.github.io/tags/Writeup/" />
+        <category term="CTF" scheme="https://the-m3chanic.github.io/tags/CTF/" />
         <category term="eBPF" scheme="https://the-m3chanic.github.io/tags/eBPF/" />
+        <category term="Writeup" scheme="https://the-m3chanic.github.io/tags/Writeup/" />
         <updated>2024-02-26T03:23:31.000Z</updated>
     </entry>
     <entry>
@@ -493,9 +493,9 @@ First thing that comes to mind is z3, so let&#39;s go for that.&lt;/p&gt;
 </content>
         <category term="Writeup" scheme="https://the-m3chanic.github.io/categories/Writeup/" />
         <category term="Security" scheme="https://the-m3chanic.github.io/tags/Security/" />
+        <category term="Reversing" scheme="https://the-m3chanic.github.io/tags/Reversing/" />
         <category term="CTF" scheme="https://the-m3chanic.github.io/tags/CTF/" />
         <category term="IrisCTF" scheme="https://the-m3chanic.github.io/tags/IrisCTF/" />
-        <category term="Reversing" scheme="https://the-m3chanic.github.io/tags/Reversing/" />
         <updated>2024-01-26T01:12:26.000Z</updated>
     </entry>
 </feed>

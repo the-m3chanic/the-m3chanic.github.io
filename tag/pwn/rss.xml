@@ -10,19 +10,19 @@
         </author>
         <description></description>
         <language>en</language>
-        <pubDate>Mon, 08 Jul 2024 04:04:33 +0530</pubDate>
-        <lastBuildDate>Mon, 08 Jul 2024 04:04:33 +0530</lastBuildDate>
+        <pubDate>Sun, 07 Jul 2024 22:34:33 +0000</pubDate>
+        <lastBuildDate>Sun, 07 Jul 2024 22:34:33 +0000</lastBuildDate>
         <item>
-            <guid isPermalink="true">https://the-m3chanic.github.io/2024/07/08/Writeup-lost-canary-UIUCTF24/</guid>
+            <guid isPermalink="true">https://the-m3chanic.github.io/2024/07/07/Writeup-lost-canary-UIUCTF24/</guid>
             <title>Writeup - lost canary - UIUCTF24</title>
-            <link>https://the-m3chanic.github.io/2024/07/08/Writeup-lost-canary-UIUCTF24/</link>
+            <link>https://the-m3chanic.github.io/2024/07/07/Writeup-lost-canary-UIUCTF24/</link>
             <category term="Writeup" scheme="https://the-m3chanic.github.io/categories/Writeup/" />
             <category term="Security" scheme="https://the-m3chanic.github.io/tags/Security/" />
-            <category term="CTF" scheme="https://the-m3chanic.github.io/tags/CTF/" />
             <category term="Reversing" scheme="https://the-m3chanic.github.io/tags/Reversing/" />
+            <category term="CTF" scheme="https://the-m3chanic.github.io/tags/CTF/" />
             <category term="Writeup" scheme="https://the-m3chanic.github.io/tags/Writeup/" />
             <category term="Pwn" scheme="https://the-m3chanic.github.io/tags/Pwn/" />
-            <pubDate>Mon, 08 Jul 2024 04:04:33 +0530</pubDate>
+            <pubDate>Sun, 07 Jul 2024 22:34:33 +0000</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;lost-canary&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#lost-canary&#34;&gt;#&lt;/a&gt; lost-canary&lt;/h1&gt;
 &lt;h4 id=&#34;author-spicypete&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#author-spicypete&#34;&gt;#&lt;/a&gt; Author: spicypete&lt;/h4&gt;
 &lt;p&gt;&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;Damn, I lost my canary at one of the train stations. Can you help me find it?&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;ncat --ssl lost-canary.chal.uiuc.tf 1337&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
